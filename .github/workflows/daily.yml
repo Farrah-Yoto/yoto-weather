@@ -1,0 +1,34 @@
+name: Daily Weather Podcast
+
+on:
+  schedule:
+    - cron: "0 22 * * *"   # UTC 22:00 = 北京时间次日 06:00
+  workflow_dispatch:        # 支持手动点按钮立即运行一次
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Generate episode
+        env:
+          BASE_URL: https://你的用户名.github.io/yoto-weather
+        run: python generate.py
+
+      - name: Commit and push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs
+          git diff --staged --quiet || git commit -m "Weather $(date -u +%F)"
+          git push
