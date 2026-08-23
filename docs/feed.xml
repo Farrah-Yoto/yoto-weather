@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Daily Weather for Kids</title>
     <link>https://farrah-yoto.github.io/yoto-weather/</link>
-    <language>en-us</language>
+    <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
+    <lastBuildDate>Sun, 23 Aug 2026 13:16:52 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
+    <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
+    <itunes:type>episodic</itunes:type>
     <itunes:explicit>false</itunes:explicit>
+    <itunes:owner>
+      <itunes:name>Family</itunes:name>
+      <itunes:email>youyoutime@sohu.com</itunes:email>
+    </itunes:owner>
+    <itunes:category text="Education"/>
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
       <title>Weather for Sunday, August 23</title>
