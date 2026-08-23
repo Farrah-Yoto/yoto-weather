@@ -20,6 +20,7 @@ TZNAME = "Asia/Shanghai"
 VOICE = "en-GB-RyanNeural"  # 英式男声，见文末可选音色列表
 RATE = "-10%"               # 语速放慢，适合启蒙
 KEEP_EPISODES = 7           # RSS 里保留最近几集
+OWNER_EMAIL = "youyoutime@sohu.com"   # 播客联系邮箱，部分客户端会校验
 BASE_URL = os.environ["BASE_URL"].rstrip("/")
 # =================================
 
@@ -116,15 +117,27 @@ def build_rss(episodes):
       <itunes:explicit>false</itunes:explicit>
     </item>""")
 
+    now_str = format_datetime(datetime.datetime.now(TZ))
     return f"""<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Daily Weather for Kids</title>
     <link>{BASE_URL}/</link>
-    <language>en-us</language>
+    <atom:link href="{BASE_URL}/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
+    <lastBuildDate>{now_str}</lastBuildDate>
     <itunes:author>Family</itunes:author>
+    <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
+    <itunes:type>episodic</itunes:type>
     <itunes:explicit>false</itunes:explicit>
+    <itunes:owner>
+      <itunes:name>Family</itunes:name>
+      <itunes:email>{OWNER_EMAIL}</itunes:email>
+    </itunes:owner>
+    <itunes:category text="Education"/>
     <itunes:image href="{BASE_URL}/cover.jpg"/>
 {chr(10).join(items)}
   </channel>
