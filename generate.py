@@ -13,6 +13,7 @@ from xml.sax.saxutils import escape
 from zoneinfo import ZoneInfo
 
 import edge_tts
+from lunardate import LunarDate
 
 # ========== 可自定义区域 ==========
 CITY = "Shanghai"
@@ -20,6 +21,7 @@ LAT, LON = 31.2304, 121.4737
 TZNAME = "Asia/Shanghai"
 VOICE = "en-GB-RyanNeural"  # 英式男声，见文末可选音色列表
 RATE = "-10%"               # 语速放慢，适合启蒙
+KEEP_FILES = 8              # 磁盘上保留几个旧音频作缓冲（feed 里仍只列 1 集）
 OWNER_EMAIL = "weather@example.com"   # 占位邮箱即可，不需要真实地址
 BASE_URL = os.environ["BASE_URL"].rstrip("/")
 # =================================
@@ -95,6 +97,46 @@ DESC = {
     ],
 }
 
+# ---------- 节日 / 生日彩蛋 ----------
+
+# 公历固定日期
+SOLAR_SPECIAL = {
+    "01-01": "Happy New Year!",
+    "02-14": "Happy Valentine's Day!",
+    "03-08": "It's Women's Day. Say something kind to Mum today!",
+    "03-12": "It's Tree Planting Day. A good day to look after a plant!",
+    "04-13": "And happy birthday! I hope you have the most wonderful day!",
+    "04-22": "It's Earth Day. Let's take good care of our planet!",
+    "05-01": "Happy Labour Day! Enjoy the holiday!",
+    "06-01": "Happy Children's Day! Today is all about you!",
+    "09-10": "It's Teachers' Day. Don't forget to thank your teacher!",
+    "10-01": "Happy National Day! Enjoy the holiday!",
+    "10-31": "Happy Halloween! Trick or treat!",
+    "12-24": "It's Christmas Eve. Father Christmas is on his way!",
+    "12-25": "Merry Christmas!",
+    "12-31": "It's New Year's Eve. Goodbye to this year!",
+}
+
+# 农历节日（农历月, 农历日）—— 每年公历日期不同，脚本自动换算
+LUNAR_SPECIAL = {
+    (1, 1): "Happy Chinese New Year! Gong xi fa cai!",
+    (1, 2): "It's the second day of Chinese New Year. Time to visit family!",
+    (1, 15): "It's the Lantern Festival. Time for sweet tangyuan!",
+    (2, 2): "It's Dragon Head Raising Day, the start of spring farming.",
+    (5, 5): "It's the Dragon Boat Festival. Enjoy your zongzi!",
+    (7, 7): "It's Qixi, the Chinese Valentine's Day.",
+    (7, 15): "It's the Zhongyuan Festival today.",
+    (8, 15): "It's the Mid-Autumn Festival. Look for the big round moon tonight!",
+    (9, 9): "It's the Double Ninth Festival, a day to care for grandparents.",
+    (12, 8): "It's Laba Festival. Time for warm laba porridge!",
+}
+
+WEEKEND_LINES = [
+    "Happy weekend!",
+    "It's the weekend. No school today!",
+    "Happy weekend! A whole day to play.",
+]
+
 OPENERS = [
     "Here is your weather report for {weekday}, {datestr}.",
     "It's {weekday}, {datestr}. Time for the weather!",
@@ -168,6 +210,152 @@ TOMORROW_LINES = [
     "with a high of {tmr_hi} degrees.",
 ]
 
+# ---------- 方向一：天气驱动的生活场景 ----------
+SCENES = {
+    "rain": [
+        "It's a puddle day! Let's put on our wellies and see how many "
+        "puddles we can jump in.",
+        "Rainy days are good for staying in. Maybe we can build a den "
+        "with the blankets.",
+        "Listen out for the rain on the window today. It sounds like "
+        "tiny drums.",
+        "Take your raincoat with you. Splashing is allowed!",
+        "If it rains later, look up afterwards. Sometimes a rainbow "
+        "comes out to say hello.",
+        "A good day for a warm drink and a story.",
+        "Watch out for snails after the rain. They love wet weather!",
+    ],
+    "sunny": [
+        "Perfect weather for the playground. Shall we take the scooter?",
+        "A lovely day to be outside. Let's find some shade and have "
+        "a picnic.",
+        "Look for your shadow today. Is it long or short?",
+        "Sunny days are good for the park. Don't forget your sun hat.",
+        "See if you can spot some flowers or bees while you are out today.",
+        "A great day for the garden, or for drawing with chalk outside.",
+        "The sun is out, so it's a good day for a long walk.",
+    ],
+    "cloudy": [
+        "Look up at the clouds today. Can you find one shaped like "
+        "an animal?",
+        "Grey skies are still good for the park. Bring your ball!",
+        "A comfortable day for a walk, not too hot and not too cold.",
+        "Cloudy days are perfect for the library or a museum.",
+        "Keep an eye on the sky. The clouds might break and let the sun "
+        "through.",
+        "A good day to ride your bike, with no hot sun in your eyes.",
+    ],
+    "hot": [
+        "It's a hot one. Let's stay in the shade and drink lots of water.",
+        "Perfect weather for water play, or maybe an ice lolly later.",
+        "Try to play outside in the morning today, and rest when it gets "
+        "hottest.",
+        "Remember your water bottle. Take a big sip every time you "
+        "think of it.",
+        "A good day for the swimming pool!",
+        "Wear something light and cool today, and don't forget your hat.",
+    ],
+    "cold": [
+        "Wrap up warm today. Can you find your gloves before we leave?",
+        "See if you can see your breath in the cold air this morning. "
+        "It looks like smoke!",
+        "A cold day is a good day for hot soup at lunchtime.",
+        "Put your coat on before you open the door. It's chilly out there!",
+        "Check the puddles today. Is there ice on top?",
+        "Cold outside means cosy inside. A good day for a blanket and "
+        "a book.",
+    ],
+    "windy": [
+        "The wind is strong today. Perfect weather for flying a kite!",
+        "Hold on to your hat, and listen to the wind in the trees.",
+        "Watch the leaves dancing in the wind today.",
+        "Button up your jacket. The wind likes to sneak inside!",
+        "See if you can feel which way the wind is blowing.",
+    ],
+    "snow": [
+        "Snow day! Let's see if there is enough to build a snowman.",
+        "Wear your warmest boots today, and look at the footprints "
+        "you leave behind.",
+        "Catch a snowflake on your glove and look at it closely.",
+        "A day for snowballs, and then hot chocolate to warm up.",
+        "Everything looks quiet and white when it snows. Have a good look "
+        "out of the window.",
+    ],
+    "fog": [
+        "It's foggy today, so everything looks a bit like a dream.",
+        "See how far you can see through the fog this morning.",
+        "Foggy mornings are quiet. Try listening instead of looking.",
+        "Hold hands when we walk today, because it's hard to see far.",
+    ],
+}
+
+# ---------- 方向二：今日一问 ----------
+QUESTIONS = [
+    "Here's a question for you today: if you could bring one thing to "
+    "the park, what would it be?",
+    "Something to think about: what is your favourite kind of weather, "
+    "and why?",
+    "Here's a question: what did you dream about last night?",
+    "Think about this one: if you could talk to one animal today, "
+    "which one would you choose?",
+    "A question for you: what made you laugh yesterday?",
+    "Here's a question: what would you like to eat for dinner tonight?",
+    "Something to wonder about: where do you think the clouds are going?",
+    "Here's a question: what is the best thing about today?",
+    "Think about this: if you could build anything at all, what would "
+    "you build?",
+    "A question for you: who would you like to give a hug to today?",
+    "Here's a question: what new thing would you like to try this week?",
+    "Something to think about: what colour is today, do you think?",
+    "Here's a question: if today was a story, what would it be called?",
+    "A question for you: what are you looking forward to?",
+    "Think about this one: what is the funniest sound you can make?",
+    "Here's a question: if you had a boat, where would you sail to?",
+    "Something to wonder about: what do you think birds talk about?",
+    "A question for you: what is something you are really good at?",
+    "Here's a question: what would you plant if you had a garden?",
+    "Think about this: if you could be very tall for one day, what "
+    "would you do?",
+    "A question for you: what song would you like to hear today?",
+    "Here's a question: what is the kindest thing you can do today?",
+    "Something to think about: what would you put in a treasure box?",
+    "Here's a question: if you could invent a new weather, what would "
+    "it be like?",
+]
+
+# ---------- 方向三：一周节奏 ----------
+WEEKDAY_LINES = {
+    0: [
+        "It's Monday, the start of a brand new week.",
+        "A fresh new week begins today.",
+        "Monday again. Let's start the week well!",
+    ],
+    1: [
+        "It's Tuesday, and the week is getting going.",
+        "Tuesday already. Well done for a good start!",
+    ],
+    2: [
+        "It's Wednesday, right in the middle of the week.",
+        "Wednesday. We are halfway through the week!",
+    ],
+    3: [
+        "It's Thursday, almost the end of the week.",
+        "Thursday. Nearly there!",
+    ],
+    4: [
+        "It's Friday. The weekend is very nearly here!",
+        "Friday at last. One more day and it's the weekend.",
+    ],
+    5: [
+        "It's Saturday, a whole day to do what you like.",
+        "Saturday! No school and no hurry today.",
+    ],
+    6: [
+        "It's Sunday, a good day to rest and get ready for the week.",
+        "Sunday. A slow and cosy sort of day.",
+    ],
+}
+
 CLOSERS = [
     "That's your weather. Have a wonderful day!",
     "And that's the weather. Have a brilliant day!",
@@ -176,6 +364,56 @@ CLOSERS = [
     "And that's it for today's weather. Have a lovely time!",
 ]
 # ============================================================
+
+
+def pick_scene_key(group, pop, hi, lo, wind):
+    """根据当天天气选一个生活场景类别"""
+    if group in ("snow", "heavy_snow"):
+        return "snow"
+    if pop >= 50 or group in (
+        "rain", "heavy_rain", "drizzle",
+        "showers", "heavy_showers", "thunder", "hail",
+    ):
+        return "rain"
+    if hi >= 30:
+        return "hot"
+    if lo <= 5:
+        return "cold"
+    if wind >= 30:
+        return "windy"
+    if group == "foggy":
+        return "fog"
+    if group in ("sunny", "partly_cloudy"):
+        return "sunny"
+    return "cloudy"
+
+
+def special_greeting(d):
+    """返回当天的节日 / 生日祝福语，没有则返回 None"""
+    # 除夕：判断“明天是正月初一”
+    tmr = d + datetime.timedelta(days=1)
+    tmr_lunar = LunarDate.fromSolarDate(tmr.year, tmr.month, tmr.day)
+    if (tmr_lunar.month, tmr_lunar.day) == (1, 1):
+        return "It's Chinese New Year's Eve! Time for the big family dinner!"
+
+    lunar = LunarDate.fromSolarDate(d.year, d.month, d.day)
+    if (lunar.month, lunar.day) in LUNAR_SPECIAL:
+        return LUNAR_SPECIAL[(lunar.month, lunar.day)]
+
+    if d.strftime("%m-%d") in SOLAR_SPECIAL:
+        return SOLAR_SPECIAL[d.strftime("%m-%d")]
+
+    # 母亲节：5 月第二个周日；父亲节：6 月第三个周日
+    if d.month == 5 and d.weekday() == 6 and 8 <= d.day <= 14:
+        return "Happy Mother's Day! Give Mum a big hug today!"
+    if d.month == 6 and d.weekday() == 6 and 15 <= d.day <= 21:
+        return "Happy Father's Day! Give Dad a big hug today!"
+
+    # 普通周末
+    if d.weekday() >= 5:
+        return random.choice(WEEKEND_LINES)
+
+    return None
 
 
 def fetch_weather():
@@ -224,16 +462,24 @@ def build_script(data, today, greeting):
         else random.choice(NO_RAIN_LINES)
     )
 
-    parts = [
-        greeting,
+    special = special_greeting(today)
+    scene_key = pick_scene_key(group, pop, hi, lo, wind)
+
+    parts = [greeting]
+    if special:
+        parts.append(special)
+    parts += [
         random.choice(OPENERS).format(weekday=weekday, datestr=datestr),
+        random.choice(WEEKDAY_LINES[today.weekday()]),
         random.choice(TODAY_LINES).format(city=CITY, desc=desc),
         random.choice(TEMP_LINES).format(hi=hi, lo=lo),
         rain_line,
         random.choice(TIPS[tip_key]),
+        random.choice(SCENES[scene_key]),
         random.choice(TOMORROW_LINES).format(
             tmr_desc=tmr_desc, tmr_hi=tmr_hi
         ),
+        random.choice(QUESTIONS),
         random.choice(CLOSERS),
     ]
     return " ".join(parts)
@@ -286,6 +532,15 @@ def build_rss(episodes):
 """
 
 
+SLOT_ORDER = {"morning": 0, "afternoon": 1, "evening": 2}
+
+
+def sort_key(p):
+    """按日期 + 时段排序（文件名字典序会把 evening 排到 morning 前面）"""
+    date_part, _, slot = p.stem.rpartition("-")
+    return (date_part, SLOT_ORDER.get(slot, 0))
+
+
 def main():
     now = datetime.datetime.now(TZ)
     today = now.date()
@@ -307,10 +562,12 @@ def main():
 
     asyncio.run(synthesize(text, mp3_path))
 
-    # 只保留刚生成的这一集，其余全部删除
-    for old in AUDIO_DIR.glob("*.mp3"):
-        if old.name != mp3_path.name:
-            old.unlink()
+    # feed 里只列最新一集，但磁盘上多留几个旧文件做缓冲：
+    # Yoto 可能还缓存着上一集的地址，立刻删掉会让它 404
+    for old in sorted(
+        AUDIO_DIR.glob("*.mp3"), key=sort_key, reverse=True
+    )[KEEP_FILES:]:
+        old.unlink()
 
     episodes = [{
         "title": f"{label} Weather for {today.strftime('%A, %B %d')}",
@@ -319,7 +576,7 @@ def main():
         "guid": f"weather-{slug}",
         "url": f"{BASE_URL}/audio/{mp3_path.name}",
         "size": mp3_path.stat().st_size,
-        "duration": "00:00:45",
+        "duration": "00:01:20",
     }]
 
     (OUT / "episodes.json").write_text(
