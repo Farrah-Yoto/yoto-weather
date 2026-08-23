@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Sun, 23 Aug 2026 15:23:47 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 18:53:09 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -20,12 +20,12 @@
     <itunes:category text="Education"/>
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
-      <title>Afternoon Weather for Sunday, August 23</title>
-      <description>Good afternoon! Happy weekend! Here is your weather report for Sunday, August 23. Sunday. A slow and cosy sort of day. Here in Shanghai, the day will be rumbling with thunderstorms. The high will be 31 degrees, and the low will be 27 degrees. There is a 99 percent chance of rain. Don't forget your umbrella today! Rainy days are good for staying in. Maybe we can build a den with the blankets. And here's a look ahead: tomorrow will be a little bit rainy, with a high of 32 degrees. Think about this: if you could build anything at all, what would you build? That's all from the weather desk. Enjoy your day!</description>
-      <itunes:summary>Good afternoon! Happy weekend! Here is your weather report for Sunday, August 23. Sunday. A slow and cosy sort of day. Here in Shanghai, the day will be rumbling with thunderstorms. The high will be 31 degrees, and the low will be 27 degrees. There is a 99 percent chance of rain. Don't forget your umbrella today! Rainy days are good for staying in. Maybe we can build a den with the blankets. And here's a look ahead: tomorrow will be a little bit rainy, with a high of 32 degrees. Think about this: if you could build anything at all, what would you build? That's all from the weather desk. Enjoy your day!</itunes:summary>
-      <pubDate>Sun, 23 Aug 2026 15:23:37 +0800</pubDate>
-      <guid isPermaLink="false">weather-2026-08-23-afternoon</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/2026-08-23-afternoon.mp3" length="317520" type="audio/mpeg"/>
+      <title>Evening Weather for Sunday, August 23</title>
+      <description>Good evening! It's the weekend. No school today! Let's find out what the weather is like on this Sunday, August 23. It's Sunday, a good day to rest and get ready for the week. In Shanghai today, expect it to be rumbling with thunderstorms. It will reach 31 degrees, and drop down to 27 degrees. The chance of rain is 99 percent. Remember to take an umbrella with you! Watch out for snails after the rain. They love wet weather! And here's a look ahead: tomorrow will be drizzly, with a high of 32 degrees. Think about this one: what is the funniest sound you can make? That's your weather report. See you tomorrow!</description>
+      <itunes:summary>Good evening! It's the weekend. No school today! Let's find out what the weather is like on this Sunday, August 23. It's Sunday, a good day to rest and get ready for the week. In Shanghai today, expect it to be rumbling with thunderstorms. It will reach 31 degrees, and drop down to 27 degrees. The chance of rain is 99 percent. Remember to take an umbrella with you! Watch out for snails after the rain. They love wet weather! And here's a look ahead: tomorrow will be drizzly, with a high of 32 degrees. Think about this one: what is the funniest sound you can make? That's your weather report. See you tomorrow!</itunes:summary>
+      <pubDate>Sun, 23 Aug 2026 18:53:05 +0800</pubDate>
+      <guid isPermaLink="false">weather-2026-08-23-evening</guid>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/2026-08-23-evening.mp3" length="315792" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
