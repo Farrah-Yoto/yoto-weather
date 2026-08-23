@@ -1,1 +1,2 @@
 edge-tts>=6.1.9
+lunardate>=0.2.2
