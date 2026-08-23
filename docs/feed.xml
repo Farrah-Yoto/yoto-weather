@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Daily Weather for Kids</title>
+    <link>https://farrah-yoto.github.io/yoto-weather/</link>
+    <language>en-us</language>
+    <description>A short, friendly English weather report every morning.</description>
+    <itunes:author>Family</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
+    <item>
+      <title>Weather for Sunday, August 23</title>
+      <description>Good morning! Here is your weather report for Sunday, August 23. Today in Shanghai, it will be thundery. The high will be 31 degrees, and the low will be 27 degrees. There is a 99 percent chance of rain. Don't forget your umbrella today! And here's a look ahead: tomorrow will be drizzly, with a high of 32 degrees. That's your weather. Have a wonderful day!</description>
+      <itunes:summary>Good morning! Here is your weather report for Sunday, August 23. Today in Shanghai, it will be thundery. The high will be 31 degrees, and the low will be 27 degrees. There is a 99 percent chance of rain. Don't forget your umbrella today! And here's a look ahead: tomorrow will be drizzly, with a high of 32 degrees. That's your weather. Have a wonderful day!</itunes:summary>
+      <pubDate>Sun, 23 Aug 2026 06:00:00 +0800</pubDate>
+      <guid isPermaLink="false">weather-2026-08-23</guid>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/2026-08-23.mp3" length="191376" type="audio/mpeg"/>
+      <itunes:duration>00:00:45</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>
