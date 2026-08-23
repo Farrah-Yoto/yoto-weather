@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Sun, 23 Aug 2026 18:53:09 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 06:51:12 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -20,12 +20,12 @@
     <itunes:category text="Education"/>
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
-      <title>Evening Weather for Sunday, August 23</title>
-      <description>Good evening! It's the weekend. No school today! Let's find out what the weather is like on this Sunday, August 23. It's Sunday, a good day to rest and get ready for the week. In Shanghai today, expect it to be rumbling with thunderstorms. It will reach 31 degrees, and drop down to 27 degrees. The chance of rain is 99 percent. Remember to take an umbrella with you! Watch out for snails after the rain. They love wet weather! And here's a look ahead: tomorrow will be drizzly, with a high of 32 degrees. Think about this one: what is the funniest sound you can make? That's your weather report. See you tomorrow!</description>
-      <itunes:summary>Good evening! It's the weekend. No school today! Let's find out what the weather is like on this Sunday, August 23. It's Sunday, a good day to rest and get ready for the week. In Shanghai today, expect it to be rumbling with thunderstorms. It will reach 31 degrees, and drop down to 27 degrees. The chance of rain is 99 percent. Remember to take an umbrella with you! Watch out for snails after the rain. They love wet weather! And here's a look ahead: tomorrow will be drizzly, with a high of 32 degrees. Think about this one: what is the funniest sound you can make? That's your weather report. See you tomorrow!</itunes:summary>
-      <pubDate>Sun, 23 Aug 2026 18:53:05 +0800</pubDate>
-      <guid isPermaLink="false">weather-2026-08-23-evening</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/2026-08-23-evening.mp3" length="315792" type="audio/mpeg"/>
+      <title>Morning Weather for Monday, August 24</title>
+      <description>Good morning! Here is your weather report for Monday, August 24. It's Monday, the start of a brand new week. In Shanghai today, expect it to be a little bit rainy. Temperatures will go up to 32 degrees, with a low of 27. There is a 33 percent chance of rain. It's going to be hot. Drink lots of water and wear a hat! A good day for a warm drink and a story. And here's a look ahead: tomorrow will be rumbling with thunderstorms, with a high of 31 degrees. Something to think about: what is your favourite kind of weather, and why? And that's the weather. Have a brilliant day!</description>
+      <itunes:summary>Good morning! Here is your weather report for Monday, August 24. It's Monday, the start of a brand new week. In Shanghai today, expect it to be a little bit rainy. Temperatures will go up to 32 degrees, with a low of 27. There is a 33 percent chance of rain. It's going to be hot. Drink lots of water and wear a hat! A good day for a warm drink and a story. And here's a look ahead: tomorrow will be rumbling with thunderstorms, with a high of 31 degrees. Something to think about: what is your favourite kind of weather, and why? And that's the weather. Have a brilliant day!</itunes:summary>
+      <pubDate>Mon, 24 Aug 2026 06:51:09 +0800</pubDate>
+      <guid isPermaLink="false">weather-2026-08-24-morning</guid>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/2026-08-24-morning.mp3" length="290880" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
