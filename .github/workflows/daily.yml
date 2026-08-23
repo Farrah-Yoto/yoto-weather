@@ -2,7 +2,8 @@ name: Daily Weather Podcast
 
 on:
   schedule:
-    - cron: "0 22 * * *"   # UTC 22:00 = 北京时间次日 06:00
+    - cron: "0 22 * * *"   # UTC 22:00 = 北京时间次日 06:00（早上那集）
+    - cron: "0 10 * * *"   # UTC 10:00 = 北京时间当日 18:00（傍晚那集）
   workflow_dispatch:        # 支持手动点按钮立即运行一次
 
 permissions:
