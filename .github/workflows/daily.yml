@@ -22,7 +22,7 @@ jobs:
 
       - name: Generate episode
         env:
-          BASE_URL: https://Farrah-Yoto.github.io/yoto-weather
+          BASE_URL: https://farrah-yoto.github.io/yoto-weather
         run: python generate.py
 
       - name: Commit and push
