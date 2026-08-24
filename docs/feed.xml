@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Mon, 24 Aug 2026 19:13:49 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 06:58:38 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -20,12 +20,12 @@
     <itunes:category text="Education"/>
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
-      <title>Evening Weather for Monday, August 24</title>
-      <description>Good evening! It's Monday, August 24. Time for the weather! Monday again. Let's start the week well! Shanghai is going to be drizzly today. It will reach 32 degrees, and drop down to 27 degrees. Rain is about 24 percent likely today. Stay cool, drink plenty of water, and find some shade! It's a puddle day! Let's put on our wellies and see how many puddles we can jump in. Looking ahead to tomorrow, it will be a little bit rainy, reaching 31 degrees. Think about this: if you could build anything at all, what would you build? That's your weather report. See you tomorrow!</description>
-      <itunes:summary>Good evening! It's Monday, August 24. Time for the weather! Monday again. Let's start the week well! Shanghai is going to be drizzly today. It will reach 32 degrees, and drop down to 27 degrees. Rain is about 24 percent likely today. Stay cool, drink plenty of water, and find some shade! It's a puddle day! Let's put on our wellies and see how many puddles we can jump in. Looking ahead to tomorrow, it will be a little bit rainy, reaching 31 degrees. Think about this: if you could build anything at all, what would you build? That's your weather report. See you tomorrow!</itunes:summary>
-      <pubDate>Mon, 24 Aug 2026 19:13:40 +0800</pubDate>
-      <guid isPermaLink="false">weather-2026-08-24-evening</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/2026-08-24-evening.mp3" length="310608" type="audio/mpeg"/>
+      <title>Morning Weather for Tuesday, August 25</title>
+      <description>Good morning! It's Tuesday, August 25. Time for the weather! It's Tuesday, and the week is getting going. Looking outside in Shanghai, today will be cloudy. It will reach 31 degrees, and drop down to 26 degrees. There is a 35 percent chance of rain. It's a hot one. A sun hat and a water bottle are a good idea! Remember your water bottle. Take a big sip every time you think of it. And here's a look ahead: tomorrow will be bright and sunny, with a high of 32 degrees. Here's a question: what is the kindest thing you can do today? That's your weather report. See you tomorrow!</description>
+      <itunes:summary>Good morning! It's Tuesday, August 25. Time for the weather! It's Tuesday, and the week is getting going. Looking outside in Shanghai, today will be cloudy. It will reach 31 degrees, and drop down to 26 degrees. There is a 35 percent chance of rain. It's a hot one. A sun hat and a water bottle are a good idea! Remember your water bottle. Take a big sip every time you think of it. And here's a look ahead: tomorrow will be bright and sunny, with a high of 32 degrees. Here's a question: what is the kindest thing you can do today? That's your weather report. See you tomorrow!</itunes:summary>
+      <pubDate>Tue, 25 Aug 2026 06:58:34 +0800</pubDate>
+      <guid isPermaLink="false">weather-2026-08-25-morning</guid>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/2026-08-25-morning.mp3" length="303840" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
