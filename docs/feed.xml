@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Tue, 25 Aug 2026 19:04:24 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 07:00:15 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -20,12 +20,12 @@
     <itunes:category text="Education"/>
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
-      <title>Evening Weather for Tuesday, August 25</title>
-      <description>Good evening! Let's find out what the weather is like on this Tuesday, August 25. Tuesday already. Well done for a good start! Today in Shanghai, it will be drizzly. The warmest part of the day will be 32 degrees, and the coolest 26. Rain is about 16 percent likely today. It's a hot one. A sun hat and a water bottle are a good idea! A good day for a warm drink and a story. Looking ahead to tomorrow, it will be lovely and sunny, reaching 32 degrees. Here's a question: what would you like to eat for dinner tonight? That's your weather. Have a wonderful day!</description>
-      <itunes:summary>Good evening! Let's find out what the weather is like on this Tuesday, August 25. Tuesday already. Well done for a good start! Today in Shanghai, it will be drizzly. The warmest part of the day will be 32 degrees, and the coolest 26. Rain is about 16 percent likely today. It's a hot one. A sun hat and a water bottle are a good idea! A good day for a warm drink and a story. Looking ahead to tomorrow, it will be lovely and sunny, reaching 32 degrees. Here's a question: what would you like to eat for dinner tonight? That's your weather. Have a wonderful day!</itunes:summary>
-      <pubDate>Tue, 25 Aug 2026 19:04:16 +0800</pubDate>
-      <guid isPermaLink="false">weather-2026-08-25-evening</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/2026-08-25-evening.mp3" length="288864" type="audio/mpeg"/>
+      <title>Morning Weather for Wednesday, August 26</title>
+      <description>Good morning! Here is your weather report for Wednesday, August 26. It's Wednesday, right in the middle of the week. Today in Shanghai, it will be a little bit rainy. The high will be 32 degrees, and the low will be 25 degrees. Rain is about 14 percent likely today. Stay cool, drink plenty of water, and find some shade! If it rains later, look up afterwards. Sometimes a rainbow comes out to say hello. And here's a look ahead: tomorrow will be a little bit rainy, with a high of 32 degrees. Here's a question for you today: if you could bring one thing to the park, what would it be? And that's the weather. Have a brilliant day!</description>
+      <itunes:summary>Good morning! Here is your weather report for Wednesday, August 26. It's Wednesday, right in the middle of the week. Today in Shanghai, it will be a little bit rainy. The high will be 32 degrees, and the low will be 25 degrees. Rain is about 14 percent likely today. Stay cool, drink plenty of water, and find some shade! If it rains later, look up afterwards. Sometimes a rainbow comes out to say hello. And here's a look ahead: tomorrow will be a little bit rainy, with a high of 32 degrees. Here's a question for you today: if you could bring one thing to the park, what would it be? And that's the weather. Have a brilliant day!</itunes:summary>
+      <pubDate>Wed, 26 Aug 2026 07:00:11 +0800</pubDate>
+      <guid isPermaLink="false">weather-2026-08-26-morning</guid>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/2026-08-26-morning.mp3" length="309744" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
