@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Sat, 29 Aug 2026 18:03:07 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2026 06:04:55 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -20,12 +20,12 @@
     <itunes:category text="Education"/>
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
-      <title>Evening Weather for Saturday, August 29</title>
-      <description>Good evening! Happy weekend! A whole day to play. Here's your weather for Saturday, August 29. It's Saturday, a whole day to do what you like. Here in Shanghai, the day will be a little bit rainy. It will reach 33 degrees, and drop down to 26 degrees. The chance of rain is 89 percent. Don't forget your umbrella today! Rainy days are good for staying in. Maybe we can build a den with the blankets. As for tomorrow, expect it to be rumbling with thunderstorms, with a high of 32 degrees. Something to wonder about: where do you think the clouds are going? That's your weather. Have a wonderful day!</description>
-      <itunes:summary>Good evening! Happy weekend! A whole day to play. Here's your weather for Saturday, August 29. It's Saturday, a whole day to do what you like. Here in Shanghai, the day will be a little bit rainy. It will reach 33 degrees, and drop down to 26 degrees. The chance of rain is 89 percent. Don't forget your umbrella today! Rainy days are good for staying in. Maybe we can build a den with the blankets. As for tomorrow, expect it to be rumbling with thunderstorms, with a high of 32 degrees. Something to wonder about: where do you think the clouds are going? That's your weather. Have a wonderful day!</itunes:summary>
-      <pubDate>Sat, 29 Aug 2026 18:03:02 +0800</pubDate>
-      <guid isPermaLink="false">weather-2026-08-29-evening</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/2026-08-29-evening.mp3" length="312048" type="audio/mpeg"/>
+      <title>Morning Weather for Sunday, August 30</title>
+      <description>Good morning! It's the weekend. No school today! Let's find out what the weather is like on this Sunday, August 30. Sunday. A slow and cosy sort of day. Looking outside in Shanghai, today will be stormy with thunder and hail. The high will be 32 degrees, and the low will be 27 degrees. The chance of rain is 95 percent. Pack your umbrella and your wellies! Take your raincoat with you. Splashing is allowed! And here's a look ahead: tomorrow will be thundery, with a high of 33 degrees. Here's a question: if you could invent a new weather, what would it be like? And that's the weather. Have a brilliant day!</description>
+      <itunes:summary>Good morning! It's the weekend. No school today! Let's find out what the weather is like on this Sunday, August 30. Sunday. A slow and cosy sort of day. Looking outside in Shanghai, today will be stormy with thunder and hail. The high will be 32 degrees, and the low will be 27 degrees. The chance of rain is 95 percent. Pack your umbrella and your wellies! Take your raincoat with you. Splashing is allowed! And here's a look ahead: tomorrow will be thundery, with a high of 33 degrees. Here's a question: if you could invent a new weather, what would it be like? And that's the weather. Have a brilliant day!</itunes:summary>
+      <pubDate>Sun, 30 Aug 2026 06:04:47 +0800</pubDate>
+      <guid isPermaLink="false">weather-2026-08-30-morning</guid>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/2026-08-30-morning.mp3" length="319824" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
