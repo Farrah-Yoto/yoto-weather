@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Tue, 01 Sep 2026 18:05:30 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 06:08:10 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -20,12 +20,12 @@
     <itunes:category text="Education"/>
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
-      <title>Evening Weather for Tuesday, September 01</title>
-      <description>Good evening! Here is your weather report for Tuesday, September 1. It's Tuesday, and the week is getting going. Today in Shanghai, it will be drizzly. It will reach 30 degrees, and drop down to 25 degrees. Rain is about 77 percent likely today. Pack your umbrella and your wellies! Take your raincoat with you. Splashing is allowed! As for tomorrow, expect it to be thundery, with a high of 28 degrees. Here's a question: what is the best thing about today? That's your weather report. See you tomorrow!</description>
-      <itunes:summary>Good evening! Here is your weather report for Tuesday, September 1. It's Tuesday, and the week is getting going. Today in Shanghai, it will be drizzly. It will reach 30 degrees, and drop down to 25 degrees. Rain is about 77 percent likely today. Pack your umbrella and your wellies! Take your raincoat with you. Splashing is allowed! As for tomorrow, expect it to be thundery, with a high of 28 degrees. Here's a question: what is the best thing about today? That's your weather report. See you tomorrow!</itunes:summary>
-      <pubDate>Tue, 01 Sep 2026 18:05:25 +0800</pubDate>
-      <guid isPermaLink="false">weather-2026-09-01-evening</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/2026-09-01-evening.mp3" length="270720" type="audio/mpeg"/>
+      <title>Morning Weather for Wednesday, September 02</title>
+      <description>Good morning! Welcome to your weather report for Wednesday, September 2. It's Wednesday, right in the middle of the week. In Shanghai today, expect it to be rumbling with thunderstorms. The warmest part of the day will be 29 degrees, and the coolest 24. Rain is about 94 percent likely today. Don't forget your umbrella today! Take your raincoat with you. Splashing is allowed! And here's a look ahead: tomorrow will be a little bit rainy, with a high of 30 degrees. A question for you: what are you looking forward to? And that's it for today's weather. Have a lovely time!</description>
+      <itunes:summary>Good morning! Welcome to your weather report for Wednesday, September 2. It's Wednesday, right in the middle of the week. In Shanghai today, expect it to be rumbling with thunderstorms. The warmest part of the day will be 29 degrees, and the coolest 24. Rain is about 94 percent likely today. Don't forget your umbrella today! Take your raincoat with you. Splashing is allowed! And here's a look ahead: tomorrow will be a little bit rainy, with a high of 30 degrees. A question for you: what are you looking forward to? And that's it for today's weather. Have a lovely time!</itunes:summary>
+      <pubDate>Wed, 02 Sep 2026 06:08:05 +0800</pubDate>
+      <guid isPermaLink="false">weather-2026-09-02-morning</guid>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/2026-09-02-morning.mp3" length="283680" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
