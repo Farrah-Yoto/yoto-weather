@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Fri, 04 Sep 2026 18:05:26 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 06:08:40 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -20,12 +20,12 @@
     <itunes:category text="Education"/>
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
-      <title>Evening Weather for Friday, September 04</title>
-      <description>Good evening! Here's your weather for Friday, September 4. It's Friday. The weekend is very nearly here! In Shanghai today, expect it to be damp with light drizzle. The high will be 30 degrees, and the low will be 25 degrees. There is a 90 percent chance of rain. Don't forget your umbrella today! Listen out for the rain on the window today. It sounds like tiny drums. And here's a look ahead: tomorrow will be drizzly, with a high of 30 degrees. A question for you: what is something you are really good at? And that's the weather. Have a brilliant day!</description>
-      <itunes:summary>Good evening! Here's your weather for Friday, September 4. It's Friday. The weekend is very nearly here! In Shanghai today, expect it to be damp with light drizzle. The high will be 30 degrees, and the low will be 25 degrees. There is a 90 percent chance of rain. Don't forget your umbrella today! Listen out for the rain on the window today. It sounds like tiny drums. And here's a look ahead: tomorrow will be drizzly, with a high of 30 degrees. A question for you: what is something you are really good at? And that's the weather. Have a brilliant day!</itunes:summary>
-      <pubDate>Fri, 04 Sep 2026 18:05:22 +0800</pubDate>
-      <guid isPermaLink="false">weather-2026-09-04-evening</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/2026-09-04-evening.mp3" length="281952" type="audio/mpeg"/>
+      <title>Morning Weather for Saturday, September 05</title>
+      <description>Good morning! Happy weekend! A whole day to play. Let's find out what the weather is like on this Saturday, September 5. Saturday! No school and no hurry today. Today in Shanghai, it will be a little bit rainy. The high will be 30 degrees, and the low will be 25 degrees. Rain is about 41 percent likely today. It's going to be hot. Drink lots of water and wear a hat! If it rains later, look up afterwards. Sometimes a rainbow comes out to say hello. And here's a look ahead: tomorrow will be drizzly, with a high of 29 degrees. A question for you: what song would you like to hear today? That's your weather. Have a wonderful day!</description>
+      <itunes:summary>Good morning! Happy weekend! A whole day to play. Let's find out what the weather is like on this Saturday, September 5. Saturday! No school and no hurry today. Today in Shanghai, it will be a little bit rainy. The high will be 30 degrees, and the low will be 25 degrees. Rain is about 41 percent likely today. It's going to be hot. Drink lots of water and wear a hat! If it rains later, look up afterwards. Sometimes a rainbow comes out to say hello. And here's a look ahead: tomorrow will be drizzly, with a high of 29 degrees. A question for you: what song would you like to hear today? That's your weather. Have a wonderful day!</itunes:summary>
+      <pubDate>Sat, 05 Sep 2026 06:08:32 +0800</pubDate>
+      <guid isPermaLink="false">weather-2026-09-05-morning</guid>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/2026-09-05-morning.mp3" length="335952" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
