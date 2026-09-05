@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Sat, 05 Sep 2026 06:08:40 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 18:04:49 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -20,12 +20,12 @@
     <itunes:category text="Education"/>
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
-      <title>Morning Weather for Saturday, September 05</title>
-      <description>Good morning! Happy weekend! A whole day to play. Let's find out what the weather is like on this Saturday, September 5. Saturday! No school and no hurry today. Today in Shanghai, it will be a little bit rainy. The high will be 30 degrees, and the low will be 25 degrees. Rain is about 41 percent likely today. It's going to be hot. Drink lots of water and wear a hat! If it rains later, look up afterwards. Sometimes a rainbow comes out to say hello. And here's a look ahead: tomorrow will be drizzly, with a high of 29 degrees. A question for you: what song would you like to hear today? That's your weather. Have a wonderful day!</description>
-      <itunes:summary>Good morning! Happy weekend! A whole day to play. Let's find out what the weather is like on this Saturday, September 5. Saturday! No school and no hurry today. Today in Shanghai, it will be a little bit rainy. The high will be 30 degrees, and the low will be 25 degrees. Rain is about 41 percent likely today. It's going to be hot. Drink lots of water and wear a hat! If it rains later, look up afterwards. Sometimes a rainbow comes out to say hello. And here's a look ahead: tomorrow will be drizzly, with a high of 29 degrees. A question for you: what song would you like to hear today? That's your weather. Have a wonderful day!</itunes:summary>
-      <pubDate>Sat, 05 Sep 2026 06:08:32 +0800</pubDate>
-      <guid isPermaLink="false">weather-2026-09-05-morning</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/2026-09-05-morning.mp3" length="335952" type="audio/mpeg"/>
+      <title>Evening Weather for Saturday, September 05</title>
+      <description>Good evening! It's the weekend. No school today! Here is your weather report for Saturday, September 5. It's Saturday, a whole day to do what you like. Today in Shanghai, it will be drizzly. It will reach 31 degrees, and drop down to 24 degrees. There is a 35 percent chance of rain. It's going to be hot. Drink lots of water and wear a hat! It's a puddle day! Let's put on our wellies and see how many puddles we can jump in. Looking ahead to tomorrow, it will be a little bit rainy, reaching 30 degrees. A question for you: what song would you like to hear today? And that's it for today's weather. Have a lovely time!</description>
+      <itunes:summary>Good evening! It's the weekend. No school today! Here is your weather report for Saturday, September 5. It's Saturday, a whole day to do what you like. Today in Shanghai, it will be drizzly. It will reach 31 degrees, and drop down to 24 degrees. There is a 35 percent chance of rain. It's going to be hot. Drink lots of water and wear a hat! It's a puddle day! Let's put on our wellies and see how many puddles we can jump in. Looking ahead to tomorrow, it will be a little bit rainy, reaching 30 degrees. A question for you: what song would you like to hear today? And that's it for today's weather. Have a lovely time!</itunes:summary>
+      <pubDate>Sat, 05 Sep 2026 18:04:45 +0800</pubDate>
+      <guid isPermaLink="false">weather-2026-09-05-evening</guid>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/2026-09-05-evening.mp3" length="324288" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
