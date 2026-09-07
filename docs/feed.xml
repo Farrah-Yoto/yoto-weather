@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Mon, 07 Sep 2026 06:08:15 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 18:05:17 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -20,12 +20,12 @@
     <itunes:category text="Education"/>
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
-      <title>Morning Weather for Monday, September 07</title>
-      <description>Good morning! Welcome to your weather report for Monday, September 7. It's Monday, the start of a brand new week. Looking outside in Shanghai, today will be damp with light drizzle. The warmest part of the day will be 30 degrees, and the coolest 23. Rain is about 35 percent likely today. It's going to be hot. Drink lots of water and wear a hat! Watch out for snails after the rain. They love wet weather! As for tomorrow, expect it to be a little bit rainy, with a high of 30 degrees. Something to think about: what would you put in a treasure box? That's your weather report. See you tomorrow!</description>
-      <itunes:summary>Good morning! Welcome to your weather report for Monday, September 7. It's Monday, the start of a brand new week. Looking outside in Shanghai, today will be damp with light drizzle. The warmest part of the day will be 30 degrees, and the coolest 23. Rain is about 35 percent likely today. It's going to be hot. Drink lots of water and wear a hat! Watch out for snails after the rain. They love wet weather! As for tomorrow, expect it to be a little bit rainy, with a high of 30 degrees. Something to think about: what would you put in a treasure box? That's your weather report. See you tomorrow!</itunes:summary>
-      <pubDate>Mon, 07 Sep 2026 06:08:09 +0800</pubDate>
-      <guid isPermaLink="false">weather-2026-09-07-morning</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/2026-09-07-morning.mp3" length="301536" type="audio/mpeg"/>
+      <title>Evening Weather for Monday, September 07</title>
+      <description>Good evening! It's Monday, September 7. Time for the weather! Monday again. Let's start the week well! Today in Shanghai, it will be a little bit rainy. It will reach 29 degrees, and drop down to 23 degrees. The chance of rain is 61 percent. Pack your umbrella and your wellies! Take your raincoat with you. Splashing is allowed! Looking ahead to tomorrow, it will be drizzly, reaching 30 degrees. A question for you: what song would you like to hear today? And that's it for today's weather. Have a lovely time!</description>
+      <itunes:summary>Good evening! It's Monday, September 7. Time for the weather! Monday again. Let's start the week well! Today in Shanghai, it will be a little bit rainy. It will reach 29 degrees, and drop down to 23 degrees. The chance of rain is 61 percent. Pack your umbrella and your wellies! Take your raincoat with you. Splashing is allowed! Looking ahead to tomorrow, it will be drizzly, reaching 30 degrees. A question for you: what song would you like to hear today? And that's it for today's weather. Have a lovely time!</itunes:summary>
+      <pubDate>Mon, 07 Sep 2026 18:05:12 +0800</pubDate>
+      <guid isPermaLink="false">weather-2026-09-07-evening</guid>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/2026-09-07-evening.mp3" length="281376" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
