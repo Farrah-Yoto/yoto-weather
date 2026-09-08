@@ -21,7 +21,7 @@ LAT, LON = 31.2304, 121.4737
 TZNAME = "Asia/Shanghai"
 VOICE = "en-GB-RyanNeural"  # 英式男声，见文末可选音色列表
 RATE = "-10%"               # 语速放慢，适合启蒙
-KEEP_FILES = 8              # 磁盘上保留几个旧音频作缓冲（feed 里仍只列 1 集）
+AUDIO_NAME = "latest.mp3"   # 音频文件名永远不变（关键，见排查里的说明）
 OWNER_EMAIL = "weather@example.com"   # 占位邮箱即可，不需要真实地址
 BASE_URL = os.environ["BASE_URL"].rstrip("/")
 # =================================
@@ -532,29 +532,23 @@ def build_rss(episodes):
 """
 
 
-SLOT_ORDER = {"morning": 0, "afternoon": 1, "evening": 2}
-
-
-def sort_key(p):
-    """按日期 + 时段排序（文件名字典序会把 evening 排到 morning 前面）"""
-    date_part, _, slot = p.stem.rpartition("-")
-    return (date_part, SLOT_ORDER.get(slot, 0))
-
-
 def main():
     now = datetime.datetime.now(TZ)
     today = now.date()
 
     # 按生成时刻选问候语
     if now.hour < 12:
-        greeting, slot, label = "Good morning!", "morning", "Morning"
+        greeting, slot = "Good morning!", "morning"
     elif now.hour < 18:
-        greeting, slot, label = "Good afternoon!", "afternoon", "Afternoon"
+        greeting, slot = "Good afternoon!", "afternoon"
     else:
-        greeting, slot, label = "Good evening!", "evening", "Evening"
+        greeting, slot = "Good evening!", "evening"
 
     slug = f"{today.isoformat()}-{slot}"
-    mp3_path = AUDIO_DIR / f"{slug}.mp3"
+
+    # 文件名永远不变：Yoto 手里的 feed 可能是几小时前的，
+    # 但它播放时会去这个固定地址取，取到的就是刚覆盖进去的最新音频
+    mp3_path = AUDIO_DIR / AUDIO_NAME
 
     data = fetch_weather()
     text = build_script(data, today, greeting)
@@ -562,25 +556,29 @@ def main():
 
     asyncio.run(synthesize(text, mp3_path))
 
-    # feed 里只列最新一集，但磁盘上多留几个旧文件做缓冲：
-    # Yoto 可能还缓存着上一集的地址，立刻删掉会让它 404
-    for old in sorted(
-        AUDIO_DIR.glob("*.mp3"), key=sort_key, reverse=True
-    )[KEEP_FILES:]:
-        old.unlink()
+    # 清掉旧方案遗留的带日期文件（之后目录里只会有 latest.mp3）
+    for old in AUDIO_DIR.glob("*.mp3"):
+        if old.name != AUDIO_NAME:
+            old.unlink()
 
     episodes = [{
-        "title": f"{label} Weather for {today.strftime('%A, %B %d')}",
+        # 标题和 guid 也保持不变：Yoto 永远认为这是同一集，
+        # 不会堆积多集，也不会因为标题过期而显示错的日期
+        "title": "Daily Weather",
         "text": text,
         "pubdate": format_datetime(now),
-        "guid": f"weather-{slug}",
-        "url": f"{BASE_URL}/audio/{mp3_path.name}",
+        "guid": "daily-weather",
+        "url": f"{BASE_URL}/audio/{AUDIO_NAME}",
         "size": mp3_path.stat().st_size,
         "duration": "00:01:20",
     }]
 
+    # 记下本次生成的时刻和文稿，方便你事后核对是哪一版
     (OUT / "episodes.json").write_text(
-        json.dumps({slug: text}, ensure_ascii=False, indent=2)
+        json.dumps(
+            {"slug": slug, "generated": now.isoformat(), "text": text},
+            ensure_ascii=False, indent=2,
+        )
     )
     (OUT / "feed.xml").write_text(build_rss(episodes), encoding="utf-8")
     print(f"Done. Feed: {BASE_URL}/feed.xml")
