@@ -3,6 +3,7 @@ name: Daily Weather Podcast
 on:
   schedule:
     - cron: "0 21 * * *"   # UTC 21:00 = 北京时间次日 05:00（早上那集）
+    - cron: "30 3 * * *"   # UTC 03:30 = 北京时间当日 11:30（中午那集）
     - cron: "0 9 * * *"    # UTC 09:00 = 北京时间当日 17:00（傍晚那集）
   workflow_dispatch:        # 支持手动点按钮立即运行一次
 
@@ -24,6 +25,8 @@ jobs:
       - name: Generate episode
         env:
           BASE_URL: https://farrah-yoto.github.io/yoto-weather
+          # 手动点 Run workflow 时强制重新生成，定时运行则跳过已存在的
+          FORCE: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
         run: python generate.py
 
       - name: Commit and push
