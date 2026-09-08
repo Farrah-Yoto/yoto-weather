@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Tue, 08 Sep 2026 15:53:42 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 05:07:47 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -21,11 +21,11 @@
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
       <title>Daily Weather</title>
-      <description>Hi there! Here's your weather for Tuesday, September 8. It's Tuesday, and the week is getting going. Here in Shanghai, the day will be under a blanket of cloud. It will reach 30 degrees, and drop down to 23 degrees. It will feel hot and sticky out there. Rain is about 39 percent likely today. There are 2 days to go until a special day. Can you guess which one? It's a hot one. A sun hat and a water bottle are a good idea! Looking ahead to tomorrow, it will be rather grey and cloudy, reaching 30 degrees. This week is all about the moon. What is your favourite part? And that's the weather. Have a brilliant day!</description>
-      <itunes:summary>Hi there! Here's your weather for Tuesday, September 8. It's Tuesday, and the week is getting going. Here in Shanghai, the day will be under a blanket of cloud. It will reach 30 degrees, and drop down to 23 degrees. It will feel hot and sticky out there. Rain is about 39 percent likely today. There are 2 days to go until a special day. Can you guess which one? It's a hot one. A sun hat and a water bottle are a good idea! Looking ahead to tomorrow, it will be rather grey and cloudy, reaching 30 degrees. This week is all about the moon. What is your favourite part? And that's the weather. Have a brilliant day!</itunes:summary>
-      <pubDate>Tue, 08 Sep 2026 15:53:36 +0800</pubDate>
+      <description>Hello, and welcome! Welcome to your weather report for Wednesday, September 9. It's Wednesday, right in the middle of the week. Today in Shanghai, it will be drizzly. Temperatures will go up to 30 degrees, with a low of 23. Muggy and hot, so keep that water bottle close. The chance of rain is 21 percent. Here's something to notice: today is almost exactly as warm as yesterday. Two days the same in a row! It's going to be hot. Drink lots of water and wear a hat! As for tomorrow, expect it to be sunny with a few showers, with a high of 30 degrees. Think about the moon today. Would you like to know more about it? That's your weather report. See you tomorrow!</description>
+      <itunes:summary>Hello, and welcome! Welcome to your weather report for Wednesday, September 9. It's Wednesday, right in the middle of the week. Today in Shanghai, it will be drizzly. Temperatures will go up to 30 degrees, with a low of 23. Muggy and hot, so keep that water bottle close. The chance of rain is 21 percent. Here's something to notice: today is almost exactly as warm as yesterday. Two days the same in a row! It's going to be hot. Drink lots of water and wear a hat! As for tomorrow, expect it to be sunny with a few showers, with a high of 30 degrees. Think about the moon today. Would you like to know more about it? That's your weather report. See you tomorrow!</itunes:summary>
+      <pubDate>Wed, 09 Sep 2026 05:07:44 +0800</pubDate>
       <guid isPermaLink="false">daily-weather</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="320688" type="audio/mpeg"/>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="338400" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
