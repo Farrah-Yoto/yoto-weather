@@ -24,6 +24,7 @@ RATE = "-10%"               # 语速放慢，适合启蒙
 AUDIO_NAME = "latest.mp3"   # 音频文件名永远不变（关键，见排查里的说明）
 OWNER_EMAIL = "weather@example.com"   # 占位邮箱即可，不需要真实地址
 BASE_URL = os.environ["BASE_URL"].rstrip("/")
+FORCE = os.environ.get("FORCE") == "1"   # 手动运行时强制重新生成
 # =================================
 
 TZ = ZoneInfo(TZNAME)
@@ -53,14 +54,21 @@ DESC = {
     "sunny": [
         "bright and sunny", "lovely and sunny", "clear and sunny",
         "full of sunshine", "beautifully clear",
+        "wall to wall sunshine", "sunny from start to finish",
+        "glorious and sunny", "bright as anything",
+        "sunny with clear blue skies",
     ],
     "partly_cloudy": [
         "partly cloudy", "a mix of sun and clouds",
         "sunny with a few clouds", "bright with some cloud",
+        "sunny in between the clouds", "part sun and part cloud",
+        "mostly bright with the odd cloud",
     ],
     "cloudy": [
         "cloudy", "rather grey and cloudy", "overcast",
-        "covered in clouds",
+        "covered in clouds", "grey from start to finish",
+        "under a blanket of cloud", "dull and cloudy",
+        "cloudy with hardly any sun",
     ],
     "foggy": [
         "foggy and misty", "quite foggy", "misty and grey",
@@ -70,6 +78,8 @@ DESC = {
     ],
     "rain": [
         "rainy", "wet and rainy", "a rainy sort of day",
+        "wet right through the day", "rainy on and off",
+        "a proper wet one", "grey and rainy",
     ],
     "heavy_rain": [
         "very rainy", "wet with heavy rain", "pouring with rain",
@@ -137,6 +147,17 @@ WEEKEND_LINES = [
     "Happy weekend! A whole day to play.",
 ]
 
+# 不带时间的问候语：一天只生成一次，任何时刻听都不穿帮
+GREETINGS = [
+    "Hello!",
+    "Hello there!",
+    "Hi there!",
+    "Hello, and welcome!",
+    "Hello! Lovely to see you.",
+    "Hello! Ready for today?",
+    "Hello there! Let's get started.",
+]
+
 OPENERS = [
     "Here is your weather report for {weekday}, {datestr}.",
     "It's {weekday}, {datestr}. Time for the weather!",
@@ -170,6 +191,54 @@ NO_RAIN_LINES = [
     "There is almost no chance of rain today.",
     "Rain is very unlikely today.",
     "You probably won't need a raincoat today.",
+]
+
+# 体感分档：比单纯报数字更有画面，也都是英文里真正常用的说法
+FEEL_LINES = {
+    "freezing": [
+        "It will feel properly freezing out there.",
+        "It's bitterly cold today, so every layer counts.",
+        "That's cold enough to make your cheeks go pink.",
+        "It will feel icy the moment you step outside.",
+        "Freezing cold today, so keep those fingers covered.",
+    ],
+    "cold": [
+        "It will feel quite nippy, especially first thing.",
+        "A bit parky today, as they say.",
+        "It's chilly out, so a coat is a good idea.",
+        "Cold enough for a hat, but not for gloves.",
+        "There's a real chill in the air today.",
+    ],
+    "mild": [
+        "It should feel pleasantly mild.",
+        "Nice and comfortable today, not too hot and not too cold.",
+        "It will feel just right out there.",
+        "A mild sort of day, easy to be outside in.",
+        "Comfortable enough to forget about the weather altogether.",
+    ],
+    "warm": [
+        "It will feel lovely and warm.",
+        "Pleasantly warm today, perfect for being outdoors.",
+        "Warm enough for short sleeves.",
+        "It should feel gently warm all day.",
+        "A warm one, but nothing too fierce.",
+    ],
+    "hot": [
+        "It's going to be a real scorcher.",
+        "Baking hot today, so take it slowly.",
+        "It will feel hot and sticky out there.",
+        "Properly hot today, the kind that makes you seek out shade.",
+        "Muggy and hot, so keep that water bottle close.",
+    ],
+}
+
+# 风只在够大的时候提一句
+WIND_LINES = [
+    "There's a fair breeze about today too.",
+    "It will be breezy as well, so things might rattle about.",
+    "Add a bit of wind to that, so it may feel cooler than it is.",
+    "The wind will be picking up as well.",
+    "It's a blowy one out there today.",
 ]
 
 TIPS = {
@@ -356,6 +425,177 @@ WEEKDAY_LINES = {
     ],
 }
 
+# ---------- 方向二：一周一个主题（周一提出，周内每天推进一句） ----------
+# 每项是（主题词, 周一的开场句）。主题词会被填进下面的通用句式，
+# 所以 52 + 10 条素材就能产出两百多种说法。学校主题放在开学的周。
+WEEKLY_THEMES = [
+    ("frost",
+     "This week we are looking out for frost. See if you can find any on "
+     "a window or on the grass."),
+    ("warm clothes",
+     "This week our theme is warm clothes. Notice which ones keep you "
+     "warmest."),
+    ("breath in cold air",
+     "This week we are watching our breath in the cold air. Try breathing "
+     "out slowly and see what happens."),
+    ("red things",
+     "This week we are looking for red things. Red is the colour of luck "
+     "and celebration."),
+    ("family",
+     "This week our theme is family. Think about who is in yours."),
+    ("food from far away",
+     "This week we are thinking about food from far away. Some of what we "
+     "eat travels a very long way."),
+    ("sleep and dreams",
+     "This week our theme is sleep and dreams. See if you can remember one "
+     "dream this week."),
+    ("birds in winter",
+     "This week we are watching birds in winter. Notice where they go to "
+     "keep warm."),
+    ("bare trees",
+     "This week our theme is bare trees. Look closely at their shapes "
+     "without any leaves."),
+    ("going back to school",
+     "This week our theme is going back to school. Think about what you "
+     "are looking forward to."),
+    ("rain",
+     "This week our theme is rain. Listen to it, and watch where it goes."),
+    ("puddles and mud",
+     "This week we are thinking about puddles and mud. Find the biggest "
+     "puddle you can."),
+    ("seeds",
+     "This week our theme is seeds. Every big plant started as a tiny one."),
+    ("classmates",
+     "This week our theme is classmates. Think about someone you sit near."),
+    ("bees and butterflies",
+     "This week we are looking for bees and butterflies. Watch which "
+     "flowers they choose."),
+    ("the colour green",
+     "This week our theme is the colour green. Count how many different "
+     "greens you can find."),
+    ("reading and books",
+     "This week our theme is reading and books. Think about a story you "
+     "would read again."),
+    ("kites",
+     "This week our theme is kites. Notice how the wind carries things."),
+    ("birdsong",
+     "This week we are listening to birdsong. Try to hear how many "
+     "different birds there are."),
+    ("numbers",
+     "This week our theme is numbers. Numbers are hiding almost "
+     "everywhere."),
+    ("worms and snails",
+     "This week we are looking for worms and snails. They come out when "
+     "the ground is wet."),
+    ("growing taller",
+     "This week our theme is growing taller. You are a little bigger than "
+     "you were last year."),
+    ("sports and running",
+     "This week our theme is sports and running. Notice how your body "
+     "feels afterwards."),
+    ("water",
+     "This week our theme is water. Think about all the ways you use it in "
+     "one day."),
+    ("ice and cold things",
+     "This week our theme is ice and cold things. Watch how quickly ice "
+     "melts."),
+    ("helping others",
+     "This week our theme is helping others. Look for one small way to "
+     "help each day."),
+    ("clouds",
+     "This week our theme is clouds. Find one shaped like something you "
+     "know."),
+    ("thunder",
+     "This week our theme is thunder. Thunder is only a sound, and sound "
+     "cannot hurt you."),
+    ("long evenings",
+     "This week our theme is long evenings. Notice how late it stays "
+     "light."),
+    ("insects",
+     "This week our theme is insects. Look carefully, because they are "
+     "small."),
+    ("fruit",
+     "This week our theme is fruit. Try to notice the colours before you "
+     "eat them."),
+    ("swimming",
+     "This week our theme is swimming. Think about how water holds you "
+     "up."),
+    ("the sun",
+     "This week our theme is the sun. It is very far away, and still warms "
+     "your face."),
+    ("staying cool",
+     "This week our theme is staying cool. Find the shadiest place you "
+     "know."),
+    ("holidays",
+     "This week our theme is holidays. Think about your favourite day so "
+     "far."),
+    ("a new school year",
+     "This week our theme is a new school year. Everything is a little new "
+     "again."),
+    ("the moon",
+     "This week our theme is the moon. Look for it each night and see how "
+     "it changes."),
+    ("school bags and desks",
+     "This week our theme is school bags and desks. Notice how you like to "
+     "keep yours."),
+    ("harvest",
+     "This week our theme is harvest. This is the time when food is "
+     "gathered in."),
+    ("blustery days",
+     "This week our theme is blustery days. Watch what the wind moves and "
+     "what it does not."),
+    ("teachers",
+     "This week our theme is teachers. Think about something one of them "
+     "taught you."),
+    ("jumpers and socks",
+     "This week our theme is jumpers and socks. Notice which ones are "
+     "cosiest."),
+    ("getting dark early",
+     "This week our theme is how early it gets dark. See what time the "
+     "lights come on."),
+    ("trying something hard",
+     "This week our theme is trying something hard. Hard things get easier "
+     "with practice."),
+    ("animals getting ready for winter",
+     "This week our theme is animals getting ready for winter. They are "
+     "busy now."),
+    ("warm drinks",
+     "This week our theme is warm drinks. Notice how they warm your hands "
+     "first."),
+    ("taking turns",
+     "This week our theme is taking turns. Notice how it feels to wait, "
+     "and to be waited for."),
+    ("rain on the window",
+     "This week our theme is rain on the window. Watch one drop and follow "
+     "it down."),
+    ("lights",
+     "This week our theme is lights. Notice all the lights on the way "
+     "home."),
+    ("giving",
+     "This week our theme is giving. Think of something you could give "
+     "that is not a thing."),
+    ("writing and letters",
+     "This week our theme is writing and letters. Letters make words, and "
+     "words carry ideas."),
+    ("looking back",
+     "This week our theme is looking back. Think about one thing you "
+     "learned this year."),
+]
+
+# 周二到周五用的通用推进句式，{theme} 会被替成上面的主题词
+THEME_LINES = [
+    "Remember, our theme this week is {theme}. What have you noticed today?",
+    "This week we are thinking about {theme}. Anything new today?",
+    "Keep {theme} in mind today.",
+    "Have you thought any more about {theme}?",
+    "What would you tell a friend about {theme}?",
+    "Still thinking about {theme} this week. Has anything surprised you?",
+    "Tell someone about {theme} today.",
+    "This week is all about {theme}. What is your favourite part?",
+    "Think about {theme} today. Would you like to know more about it?",
+    "One more day of thinking about {theme}. What stands out?",
+]
+
 CLOSERS = [
     "That's your weather. Have a wonderful day!",
     "And that's the weather. Have a brilliant day!",
@@ -416,14 +656,126 @@ def special_greeting(d):
     return None
 
 
+def weekly_theme(today):
+    """本周主题：周一提出，周二到周五用通用句式推进，周末换成轻松提问"""
+    week = today.isocalendar()[1]
+    theme, opening = WEEKLY_THEMES[(week - 1) % len(WEEKLY_THEMES)]
+    if today.weekday() == 0:
+        return opening
+    if today.weekday() >= 5:
+        # 周末不推进主题，用那 24 条轻松问题（严格轮转，不会撞车）
+        return pick(QUESTIONS, today)
+    return pick(THEME_LINES, today).format(theme=theme)
+
+
+def already_done_today(today):
+    """今天已经生成过就跳过，让后面几次定时运行变成免费的兜底"""
+    p = OUT / "episodes.json"
+    if not p.exists():
+        return False
+    try:
+        return json.loads(p.read_text()).get("date") == today.isoformat()
+    except Exception:
+        return False
+
+
+def pick(seq, today, offset=0):
+    """按日期严格轮转：用完整个库才回头，不会连着撞同一条"""
+    return seq[(today.toordinal() + offset) % len(seq)]
+
+
+def days_to_next_festival(d, limit=45):
+    """往后找最近的一个节日，返回还有几天；找不到返回 None"""
+    for i in range(1, limit + 1):
+        n = d + datetime.timedelta(days=i)
+        lunar = LunarDate.fromSolarDate(n.year, n.month, n.day)
+        if (lunar.month, lunar.day) in LUNAR_SPECIAL:
+            return i
+        if n.strftime("%m-%d") in SOLAR_SPECIAL:
+            return i
+    return None
+
+
+def data_question(d, today):
+    """今日观察：全部从当天真实数据现算，所以永远不会重复"""
+    cands = []
+
+    # 一、和昨天比气温
+    y_hi = round(d["temperature_2m_max"][0])
+    t_hi = round(d["temperature_2m_max"][1])
+    diff = t_hi - y_hi
+    if diff >= 2:
+        cands.append(
+            f"Here's something to notice: today is about {diff} degrees "
+            "warmer than yesterday. Do you think you can feel it?"
+        )
+    elif diff <= -2:
+        cands.append(
+            f"Here's something to notice: today is about {abs(diff)} degrees "
+            "cooler than yesterday. Will you need an extra layer?"
+        )
+    else:
+        cands.append(
+            "Here's something to notice: today is almost exactly as warm as "
+            "yesterday. Two days the same in a row!"
+        )
+
+    # 二、白天在变长还是变短
+    delta = round(
+        (d["daylight_duration"][1] - d["daylight_duration"][0]) / 60
+    )
+    sunset = datetime.datetime.fromisoformat(
+        d["sunset"][1]
+    ).strftime("%-I:%M")
+    if delta <= -1:
+        cands.append(
+            f"The sun goes down at {sunset} this evening, about "
+            f"{abs(delta)} minutes earlier than yesterday. "
+            "Can you feel the days getting shorter?"
+        )
+    elif delta >= 1:
+        cands.append(
+            f"The sun goes down at {sunset} this evening, about "
+            f"{delta} minutes later than yesterday. "
+            "Can you feel the days getting longer?"
+        )
+    else:
+        cands.append(
+            f"The sun goes down at {sunset} this evening, at almost exactly "
+            "the same time as yesterday."
+        )
+
+    # 三、今年过了多少天
+    doy = today.timetuple().tm_yday
+    left = (datetime.date(today.year, 12, 31) - today).days
+    cands.append(
+        f"Did you know today is day {doy} of the year? "
+        f"There are {left} days to go until the new one."
+    )
+
+    # 四、还有几天到下一个节日
+    togo = days_to_next_festival(today)
+    if togo:
+        cands.append(
+            f"There are {togo} days to go until a special day. "
+            "Can you guess which one?"
+        )
+
+    return pick(cands, today)
+
+
 def fetch_weather():
     url = (
         "https://api.open-meteo.com/v1/forecast"
         f"?latitude={LAT}&longitude={LON}"
         "&daily=weather_code,temperature_2m_max,temperature_2m_min,"
-        "precipitation_probability_max,wind_speed_10m_max"
+        "precipitation_probability_max,wind_speed_10m_max,"
+        "sunrise,sunset,daylight_duration"
         "&current=temperature_2m,weather_code"
-        f"&timezone={TZNAME.replace('/', '%2F')}&forecast_days=2"
+        # past_days=1 把昨天也取回来，用于“今日观察”的对比
+        # 注意：因此 daily 数组变成 [昨天, 今天, 明天]
+        f"&timezone={TZNAME.replace('/', '%2F')}"
+        "&past_days=1&forecast_days=2"
     )
     with urllib.request.urlopen(url, timeout=30) as r:
         return json.load(r)
@@ -431,16 +783,18 @@ def fetch_weather():
 
 def build_script(data, today, greeting):
     d = data["daily"]
-    group = WMO_GROUP.get(d["weather_code"][0], "cloudy")
+    # 开了 past_days=1 之后：0=昨天，1=今天，2=明天
+    TDY, TMR = 1, 2
+    group = WMO_GROUP.get(d["weather_code"][TDY], "cloudy")
     desc = random.choice(DESC[group])
-    hi = round(d["temperature_2m_max"][0])
-    lo = round(d["temperature_2m_min"][0])
-    pop = d["precipitation_probability_max"][0] or 0
-    wind = round(d["wind_speed_10m_max"][0])
+    hi = round(d["temperature_2m_max"][TDY])
+    lo = round(d["temperature_2m_min"][TDY])
+    pop = d["precipitation_probability_max"][TDY] or 0
+    wind = round(d["wind_speed_10m_max"][TDY])
 
-    tmr_group = WMO_GROUP.get(d["weather_code"][1], "cloudy")
+    tmr_group = WMO_GROUP.get(d["weather_code"][TMR], "cloudy")
     tmr_desc = random.choice(DESC[tmr_group])
-    tmr_hi = round(d["temperature_2m_max"][1])
+    tmr_hi = round(d["temperature_2m_max"][TMR])
 
     weekday = today.strftime("%A")
     datestr = today.strftime("%B %-d")  # Windows 上用 %#d
@@ -465,6 +819,26 @@ def build_script(data, today, greeting):
     special = special_greeting(today)
     scene_key = pick_scene_key(group, pop, hi, lo, wind)
 
+    # 第⑥段：天气极端时给实用提醒，天气平淡时给生活画面
+    # 体感分档
+    if hi <= 5:
+        feel_key = "freezing"
+    elif hi <= 14:
+        feel_key = "cold"
+    elif hi <= 22:
+        feel_key = "mild"
+    elif hi <= 29:
+        feel_key = "warm"
+    else:
+        feel_key = "hot"
+
+    wind_line = random.choice(WIND_LINES) if wind >= 20 else ""
+
+    if tip_key == "nice":
+        advice = random.choice(SCENES[scene_key])
+    else:
+        advice = random.choice(TIPS[tip_key])
+
     parts = [greeting]
     if special:
         parts.append(special)
@@ -473,16 +847,19 @@ def build_script(data, today, greeting):
         random.choice(WEEKDAY_LINES[today.weekday()]),
         random.choice(TODAY_LINES).format(city=CITY, desc=desc),
         random.choice(TEMP_LINES).format(hi=hi, lo=lo),
+        random.choice(FEEL_LINES[feel_key]),
         rain_line,
-        random.choice(TIPS[tip_key]),
-        random.choice(SCENES[scene_key]),
+        wind_line,
+        data_question(d, today),
+        advice,
         random.choice(TOMORROW_LINES).format(
             tmr_desc=tmr_desc, tmr_hi=tmr_hi
         ),
-        random.choice(QUESTIONS),
+        weekly_theme(today),
         random.choice(CLOSERS),
     ]
-    return " ".join(parts)
+    # 过滤空字符串（比如风不够大时 wind_line 是空的）
+    return " ".join(p for p in parts if p)
 
 
 async def synthesize(text, path):
@@ -537,14 +914,14 @@ def main():
     today = now.date()
 
     # 按生成时刻选问候语
-    if now.hour < 12:
-        greeting, slot = "Good morning!", "morning"
-    elif now.hour < 18:
-        greeting, slot = "Good afternoon!", "afternoon"
-    else:
-        greeting, slot = "Good evening!", "evening"
+    # 阀值向前挪，和生成时刻对齐：
+    # 05:00 跑→morning，11:xx 跑→afternoon，17:00 跑→evening
+    if already_done_today(today) and not FORCE:
+        print("Today's episode already exists. Nothing to do.")
+        return
 
-    slug = f"{today.isoformat()}-{slot}"
+    greeting = pick(GREETINGS, today)
+    slug = today.isoformat()
 
     # 文件名永远不变：Yoto 手里的 feed 可能是几小时前的，
     # 但它播放时会去这个固定地址取，取到的就是刚覆盖进去的最新音频
@@ -576,7 +953,7 @@ def main():
     # 记下本次生成的时刻和文稿，方便你事后核对是哪一版
     (OUT / "episodes.json").write_text(
         json.dumps(
-            {"slug": slug, "generated": now.isoformat(), "text": text},
+            {"date": slug, "generated": now.isoformat(), "text": text},
             ensure_ascii=False, indent=2,
         )
     )
