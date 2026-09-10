@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Thu, 10 Sep 2026 05:07:28 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 05:07:46 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -21,11 +21,11 @@
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
       <title>Daily Weather</title>
-      <description>Hello! Lovely to see you. It's Teachers' Day. Don't forget to thank your teacher! Here's your weather for Thursday, September 10. It's Thursday, almost the end of the week. In Shanghai today, expect it to be a little bit rainy. The high will be 30 degrees, and the low will be 21 degrees. It will feel hot and sticky out there. There is a 51 percent chance of rain. The sun goes down at 6:06 this evening, about 2 minutes earlier than yesterday. Can you feel the days getting shorter? Don't forget your umbrella today! As for tomorrow, expect it to be damp with light drizzle, with a high of 30 degrees. One more day of thinking about the moon. What stands out? That's your weather report. See you tomorrow!</description>
-      <itunes:summary>Hello! Lovely to see you. It's Teachers' Day. Don't forget to thank your teacher! Here's your weather for Thursday, September 10. It's Thursday, almost the end of the week. In Shanghai today, expect it to be a little bit rainy. The high will be 30 degrees, and the low will be 21 degrees. It will feel hot and sticky out there. There is a 51 percent chance of rain. The sun goes down at 6:06 this evening, about 2 minutes earlier than yesterday. Can you feel the days getting shorter? Don't forget your umbrella today! As for tomorrow, expect it to be damp with light drizzle, with a high of 30 degrees. One more day of thinking about the moon. What stands out? That's your weather report. See you tomorrow!</itunes:summary>
-      <pubDate>Thu, 10 Sep 2026 05:07:21 +0800</pubDate>
+      <description>Hello! Ready for today? Here is your weather report for Friday, September 11. Friday at last. One more day and it's the weekend. Today in Shanghai, it will be a little bit rainy. Temperatures will go up to 30 degrees, with a low of 22. Properly hot today, the kind that makes you seek out shade. There is a 90 percent chance of rain. Did you know today is day 254 of the year? There are 111 days to go until the new one. Pack your umbrella and your wellies! And here's a look ahead: tomorrow will be beautifully clear, with a high of 30 degrees. Remember, our theme this week is the moon. What have you noticed today? That's your weather. Have a wonderful day!</description>
+      <itunes:summary>Hello! Ready for today? Here is your weather report for Friday, September 11. Friday at last. One more day and it's the weekend. Today in Shanghai, it will be a little bit rainy. Temperatures will go up to 30 degrees, with a low of 22. Properly hot today, the kind that makes you seek out shade. There is a 90 percent chance of rain. Did you know today is day 254 of the year? There are 111 days to go until the new one. Pack your umbrella and your wellies! And here's a look ahead: tomorrow will be beautifully clear, with a high of 30 degrees. Remember, our theme this week is the moon. What have you noticed today? That's your weather. Have a wonderful day!</itunes:summary>
+      <pubDate>Fri, 11 Sep 2026 05:07:39 +0800</pubDate>
       <guid isPermaLink="false">daily-weather</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="358992" type="audio/mpeg"/>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="350352" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
