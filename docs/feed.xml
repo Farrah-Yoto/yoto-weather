@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Mon, 14 Sep 2026 05:07:48 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 05:08:26 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -21,11 +21,11 @@
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
       <title>Daily Weather</title>
-      <description>Hello there! Here's your weather for Monday, September 14. A fresh new week begins today. Here in Shanghai, the day will be sunny in between the clouds. The high will be 30 degrees, and the low will be 23 degrees. It's going to be a real scorcher. The chance of rain is 10 percent. The sun goes down at 6:01 this evening, about 2 minutes earlier than yesterday. Can you feel the days getting shorter? It's a hot one. A sun hat and a water bottle are a good idea! Looking ahead to tomorrow, it will be part sun and part cloud, reaching 29 degrees. This week our theme is school bags and desks. Notice how you like to keep yours. That's all from the weather desk. Enjoy your day!</description>
-      <itunes:summary>Hello there! Here's your weather for Monday, September 14. A fresh new week begins today. Here in Shanghai, the day will be sunny in between the clouds. The high will be 30 degrees, and the low will be 23 degrees. It's going to be a real scorcher. The chance of rain is 10 percent. The sun goes down at 6:01 this evening, about 2 minutes earlier than yesterday. Can you feel the days getting shorter? It's a hot one. A sun hat and a water bottle are a good idea! Looking ahead to tomorrow, it will be part sun and part cloud, reaching 29 degrees. This week our theme is school bags and desks. Notice how you like to keep yours. That's all from the weather desk. Enjoy your day!</itunes:summary>
-      <pubDate>Mon, 14 Sep 2026 05:07:44 +0800</pubDate>
+      <description>Hi there! Here's your weather for Tuesday, September 15. Tuesday already. Well done for a good start! In Shanghai today, expect it to be cloudy. It will reach 29 degrees, and drop down to 22 degrees. It should feel gently warm all day. There is almost no chance of rain today. Did you know today is day 258 of the year? There are 107 days to go until the new one. Grey skies are still good for the park. Bring your ball! And here's a look ahead: tomorrow will be cloudy with hardly any sun, with a high of 30 degrees. What would you tell a friend about school bags and desks? That's your weather. Have a wonderful day!</description>
+      <itunes:summary>Hi there! Here's your weather for Tuesday, September 15. Tuesday already. Well done for a good start! In Shanghai today, expect it to be cloudy. It will reach 29 degrees, and drop down to 22 degrees. It should feel gently warm all day. There is almost no chance of rain today. Did you know today is day 258 of the year? There are 107 days to go until the new one. Grey skies are still good for the park. Bring your ball! And here's a look ahead: tomorrow will be cloudy with hardly any sun, with a high of 30 degrees. What would you tell a friend about school bags and desks? That's your weather. Have a wonderful day!</itunes:summary>
+      <pubDate>Tue, 15 Sep 2026 05:08:18 +0800</pubDate>
       <guid isPermaLink="false">daily-weather</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="347040" type="audio/mpeg"/>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="331776" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
