@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Thu, 17 Sep 2026 05:08:37 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 05:08:29 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -21,11 +21,11 @@
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
       <title>Daily Weather</title>
-      <description>Hello! Lovely to see you. Let's find out what the weather is like on this Thursday, September 17. Thursday. Nearly there! In Shanghai today, expect it to be drizzly. Temperatures will go up to 30 degrees, with a low of 22. It's going to be a real scorcher. There is a 56 percent chance of rain. Here's something to notice: today is almost exactly as warm as yesterday. Two days the same in a row! Don't forget your umbrella today! Looking ahead to tomorrow, it will be damp with light drizzle, reaching 32 degrees. Tell someone about school bags and desks today. That's all from the weather desk. Enjoy your day!</description>
-      <itunes:summary>Hello! Lovely to see you. Let's find out what the weather is like on this Thursday, September 17. Thursday. Nearly there! In Shanghai today, expect it to be drizzly. Temperatures will go up to 30 degrees, with a low of 22. It's going to be a real scorcher. There is a 56 percent chance of rain. Here's something to notice: today is almost exactly as warm as yesterday. Two days the same in a row! Don't forget your umbrella today! Looking ahead to tomorrow, it will be damp with light drizzle, reaching 32 degrees. Tell someone about school bags and desks today. That's all from the weather desk. Enjoy your day!</itunes:summary>
-      <pubDate>Thu, 17 Sep 2026 05:08:31 +0800</pubDate>
+      <description>Hello! Ready for today? Here is your weather report for Friday, September 18. It's Friday. The weekend is very nearly here! Shanghai is going to be cloudy today. The high will be 32 degrees, and the low will be 24 degrees. It's going to be a real scorcher. Rain is about 31 percent likely today. The sun goes down at 5:56 this evening, about 2 minutes earlier than yesterday. Can you feel the days getting shorter? Stay cool, drink plenty of water, and find some shade! Looking ahead to tomorrow, it will be damp with light drizzle, reaching 31 degrees. This week is all about school bags and desks. What is your favourite part? And that's the weather. Have a brilliant day!</description>
+      <itunes:summary>Hello! Ready for today? Here is your weather report for Friday, September 18. It's Friday. The weekend is very nearly here! Shanghai is going to be cloudy today. The high will be 32 degrees, and the low will be 24 degrees. It's going to be a real scorcher. Rain is about 31 percent likely today. The sun goes down at 5:56 this evening, about 2 minutes earlier than yesterday. Can you feel the days getting shorter? Stay cool, drink plenty of water, and find some shade! Looking ahead to tomorrow, it will be damp with light drizzle, reaching 31 degrees. This week is all about school bags and desks. What is your favourite part? And that's the weather. Have a brilliant day!</itunes:summary>
+      <pubDate>Fri, 18 Sep 2026 05:08:23 +0800</pubDate>
       <guid isPermaLink="false">daily-weather</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="327168" type="audio/mpeg"/>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="361584" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
