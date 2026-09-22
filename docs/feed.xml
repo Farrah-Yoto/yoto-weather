@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Tue, 22 Sep 2026 05:07:54 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 05:07:41 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -21,11 +21,11 @@
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
       <title>Daily Weather</title>
-      <description>Hi there! Here is your weather report for Tuesday, September 22. Tuesday already. Well done for a good start! Shanghai is going to be a little bit rainy today. The high will be 30 degrees, and the low will be 22 degrees. Baking hot today, so take it slowly. The chance of rain is 18 percent. The sun goes down at 5:51 this evening, about 2 minutes earlier than yesterday. Can you feel the days getting shorter? Stay cool, drink plenty of water, and find some shade! As for tomorrow, expect it to be damp with light drizzle, with a high of 29 degrees. This week we are thinking about harvest. Anything new today? That's your weather. Have a wonderful day!</description>
-      <itunes:summary>Hi there! Here is your weather report for Tuesday, September 22. Tuesday already. Well done for a good start! Shanghai is going to be a little bit rainy today. The high will be 30 degrees, and the low will be 22 degrees. Baking hot today, so take it slowly. The chance of rain is 18 percent. The sun goes down at 5:51 this evening, about 2 minutes earlier than yesterday. Can you feel the days getting shorter? Stay cool, drink plenty of water, and find some shade! As for tomorrow, expect it to be damp with light drizzle, with a high of 29 degrees. This week we are thinking about harvest. Anything new today? That's your weather. Have a wonderful day!</itunes:summary>
-      <pubDate>Tue, 22 Sep 2026 05:07:49 +0800</pubDate>
+      <description>Hello, and welcome! Let's find out what the weather is like on this Wednesday, September 23. Wednesday. We are halfway through the week! Here in Shanghai, the day will be under a blanket of cloud. Temperatures will go up to 30 degrees, with a low of 22. It's going to be a real scorcher. You probably won't need a raincoat today. Did you know today is day 266 of the year? There are 99 days to go until the new one. Stay cool, drink plenty of water, and find some shade! As for tomorrow, expect it to be under a blanket of cloud, with a high of 33 degrees. Keep harvest in mind today. That's all from the weather desk. Enjoy your day!</description>
+      <itunes:summary>Hello, and welcome! Let's find out what the weather is like on this Wednesday, September 23. Wednesday. We are halfway through the week! Here in Shanghai, the day will be under a blanket of cloud. Temperatures will go up to 30 degrees, with a low of 22. It's going to be a real scorcher. You probably won't need a raincoat today. Did you know today is day 266 of the year? There are 99 days to go until the new one. Stay cool, drink plenty of water, and find some shade! As for tomorrow, expect it to be under a blanket of cloud, with a high of 33 degrees. Keep harvest in mind today. That's all from the weather desk. Enjoy your day!</itunes:summary>
+      <pubDate>Wed, 23 Sep 2026 05:07:37 +0800</pubDate>
       <guid isPermaLink="false">daily-weather</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="343872" type="audio/mpeg"/>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="337248" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
