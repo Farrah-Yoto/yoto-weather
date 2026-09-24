@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Thu, 24 Sep 2026 07:24:52 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 07:44:49 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -21,11 +21,11 @@
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
       <title>Daily Weather</title>
-      <description>Hello! Lovely to see you. Here's your weather for Thursday, September 24. Thursday. Nearly there! Here in Shanghai, the day will be dull and cloudy. The high will be 31 degrees, and the low will be 24 degrees. It's going to be a real scorcher. There is almost no chance of rain today. There are 1 days to go until a special day. Can you guess which one? It's going to be hot. Drink lots of water and wear a hat! And here's a look ahead: tomorrow will be showery, with a high of 33 degrees. Have you thought any more about harvest? And that's the weather. Have a brilliant day!</description>
-      <itunes:summary>Hello! Lovely to see you. Here's your weather for Thursday, September 24. Thursday. Nearly there! Here in Shanghai, the day will be dull and cloudy. The high will be 31 degrees, and the low will be 24 degrees. It's going to be a real scorcher. There is almost no chance of rain today. There are 1 days to go until a special day. Can you guess which one? It's going to be hot. Drink lots of water and wear a hat! And here's a look ahead: tomorrow will be showery, with a high of 33 degrees. Have you thought any more about harvest? And that's the weather. Have a brilliant day!</itunes:summary>
-      <pubDate>Thu, 24 Sep 2026 07:24:48 +0800</pubDate>
+      <description>Hello! Ready for today? It's the Mid-Autumn Festival. Look for the big round moon tonight! Here is your weather report for Friday, September 25. Friday at last. One more day and it's the weekend. Here in Shanghai, the day will be a little bit rainy. Temperatures will go up to 33 degrees, with a low of 24. It's going to be a real scorcher. The chance of rain is 60 percent. Here's something to notice: today is about 3 degrees warmer than yesterday. Do you think you can feel it? Don't forget your umbrella today! As for tomorrow, expect it to be thundery, with a high of 33 degrees. What would you tell a friend about harvest? And that's it for today's weather. Have a lovely time!</description>
+      <itunes:summary>Hello! Ready for today? It's the Mid-Autumn Festival. Look for the big round moon tonight! Here is your weather report for Friday, September 25. Friday at last. One more day and it's the weekend. Here in Shanghai, the day will be a little bit rainy. Temperatures will go up to 33 degrees, with a low of 24. It's going to be a real scorcher. The chance of rain is 60 percent. Here's something to notice: today is about 3 degrees warmer than yesterday. Do you think you can feel it? Don't forget your umbrella today! As for tomorrow, expect it to be thundery, with a high of 33 degrees. What would you tell a friend about harvest? And that's it for today's weather. Have a lovely time!</itunes:summary>
+      <pubDate>Fri, 25 Sep 2026 07:44:41 +0800</pubDate>
       <guid isPermaLink="false">daily-weather</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="312624" type="audio/mpeg"/>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="355968" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
