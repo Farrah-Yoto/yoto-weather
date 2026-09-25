@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Fri, 25 Sep 2026 07:44:49 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 07:46:16 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -21,11 +21,11 @@
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
       <title>Daily Weather</title>
-      <description>Hello! Ready for today? It's the Mid-Autumn Festival. Look for the big round moon tonight! Here is your weather report for Friday, September 25. Friday at last. One more day and it's the weekend. Here in Shanghai, the day will be a little bit rainy. Temperatures will go up to 33 degrees, with a low of 24. It's going to be a real scorcher. The chance of rain is 60 percent. Here's something to notice: today is about 3 degrees warmer than yesterday. Do you think you can feel it? Don't forget your umbrella today! As for tomorrow, expect it to be thundery, with a high of 33 degrees. What would you tell a friend about harvest? And that's it for today's weather. Have a lovely time!</description>
-      <itunes:summary>Hello! Ready for today? It's the Mid-Autumn Festival. Look for the big round moon tonight! Here is your weather report for Friday, September 25. Friday at last. One more day and it's the weekend. Here in Shanghai, the day will be a little bit rainy. Temperatures will go up to 33 degrees, with a low of 24. It's going to be a real scorcher. The chance of rain is 60 percent. Here's something to notice: today is about 3 degrees warmer than yesterday. Do you think you can feel it? Don't forget your umbrella today! As for tomorrow, expect it to be thundery, with a high of 33 degrees. What would you tell a friend about harvest? And that's it for today's weather. Have a lovely time!</itunes:summary>
-      <pubDate>Fri, 25 Sep 2026 07:44:41 +0800</pubDate>
+      <description>Hello there! Let's get started. Happy weekend! A whole day to play. Here is your weather report for Saturday, September 26. It's Saturday, a whole day to do what you like. Looking outside in Shanghai, today will be rumbling with thunderstorms. The warmest part of the day will be 33 degrees, and the coolest 25. It's going to be a real scorcher. The chance of rain is 36 percent. The sun goes down at 5:46 this evening, about 2 minutes earlier than yesterday. Can you feel the days getting shorter? It's a hot one. A sun hat and a water bottle are a good idea! As for tomorrow, expect it to be rumbling with thunderstorms, with a high of 29 degrees. A question for you: what are you looking forward to? And that's it for today's weather. Have a lovely time!</description>
+      <itunes:summary>Hello there! Let's get started. Happy weekend! A whole day to play. Here is your weather report for Saturday, September 26. It's Saturday, a whole day to do what you like. Looking outside in Shanghai, today will be rumbling with thunderstorms. The warmest part of the day will be 33 degrees, and the coolest 25. It's going to be a real scorcher. The chance of rain is 36 percent. The sun goes down at 5:46 this evening, about 2 minutes earlier than yesterday. Can you feel the days getting shorter? It's a hot one. A sun hat and a water bottle are a good idea! As for tomorrow, expect it to be rumbling with thunderstorms, with a high of 29 degrees. A question for you: what are you looking forward to? And that's it for today's weather. Have a lovely time!</itunes:summary>
+      <pubDate>Sat, 26 Sep 2026 07:46:12 +0800</pubDate>
       <guid isPermaLink="false">daily-weather</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="355968" type="audio/mpeg"/>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="390816" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
