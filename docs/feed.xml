@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Sat, 03 Oct 2026 08:07:02 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 07:29:52 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -21,11 +21,11 @@
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
       <title>Daily Weather</title>
-      <description>Hello there! Let's get started. Happy weekend! Here's your weather for Saturday, October 3. Saturday! No school and no hurry today. Shanghai is going to be drizzly today. Temperatures will go up to 22 degrees, with a low of 18. A mild sort of day, easy to be outside in. The chance of rain is 60 percent. Here's something to notice: today is almost exactly as warm as yesterday. Two days the same in a row! Don't forget your umbrella today! Looking ahead to tomorrow, it will be drizzly, reaching 23 degrees. A question for you: what song would you like to hear today? That's your weather. Have a wonderful day!</description>
-      <itunes:summary>Hello there! Let's get started. Happy weekend! Here's your weather for Saturday, October 3. Saturday! No school and no hurry today. Shanghai is going to be drizzly today. Temperatures will go up to 22 degrees, with a low of 18. A mild sort of day, easy to be outside in. The chance of rain is 60 percent. Here's something to notice: today is almost exactly as warm as yesterday. Two days the same in a row! Don't forget your umbrella today! Looking ahead to tomorrow, it will be drizzly, reaching 23 degrees. A question for you: what song would you like to hear today? That's your weather. Have a wonderful day!</itunes:summary>
-      <pubDate>Sat, 03 Oct 2026 08:06:56 +0800</pubDate>
+      <description>Hello! Happy weekend! Here is your weather report for Sunday, October 4. It's Sunday, a good day to rest and get ready for the week. Here in Shanghai, the day will be on and off showers. Temperatures will go up to 23 degrees, with a low of 19. It should feel gently warm all day. Rain is about 100 percent likely today. The sun goes down at 5:35 this evening, about 2 minutes earlier than yesterday. Can you feel the days getting shorter? Remember to take an umbrella with you! And here's a look ahead: tomorrow will be overcast, with a high of 22 degrees. Here's a question: what is the kindest thing you can do today? That's all from the weather desk. Enjoy your day!</description>
+      <itunes:summary>Hello! Happy weekend! Here is your weather report for Sunday, October 4. It's Sunday, a good day to rest and get ready for the week. Here in Shanghai, the day will be on and off showers. Temperatures will go up to 23 degrees, with a low of 19. It should feel gently warm all day. Rain is about 100 percent likely today. The sun goes down at 5:35 this evening, about 2 minutes earlier than yesterday. Can you feel the days getting shorter? Remember to take an umbrella with you! And here's a look ahead: tomorrow will be overcast, with a high of 22 degrees. Here's a question: what is the kindest thing you can do today? That's all from the weather desk. Enjoy your day!</itunes:summary>
+      <pubDate>Sun, 04 Oct 2026 07:29:48 +0800</pubDate>
       <guid isPermaLink="false">daily-weather</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="332640" type="audio/mpeg"/>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="337392" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
