@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Fri, 02 Oct 2026 08:29:27 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 08:07:02 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -21,11 +21,11 @@
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
       <title>Daily Weather</title>
-      <description>Hello! Ready for today? Let's find out what the weather is like on this Friday, October 2. It's Friday. The weekend is very nearly here! Shanghai is going to be drizzly today. The warmest part of the day will be 24 degrees, and the coolest 20. A warm one, but nothing too fierce. There is almost no chance of rain today. There are 16 days to go until a special day. Can you guess which one? A good day for a warm drink and a story. As for tomorrow, expect it to be damp with light drizzle, with a high of 24 degrees. This week we are thinking about blustery days. Anything new today? That's your weather report. See you tomorrow!</description>
-      <itunes:summary>Hello! Ready for today? Let's find out what the weather is like on this Friday, October 2. It's Friday. The weekend is very nearly here! Shanghai is going to be drizzly today. The warmest part of the day will be 24 degrees, and the coolest 20. A warm one, but nothing too fierce. There is almost no chance of rain today. There are 16 days to go until a special day. Can you guess which one? A good day for a warm drink and a story. As for tomorrow, expect it to be damp with light drizzle, with a high of 24 degrees. This week we are thinking about blustery days. Anything new today? That's your weather report. See you tomorrow!</itunes:summary>
-      <pubDate>Fri, 02 Oct 2026 08:29:22 +0800</pubDate>
+      <description>Hello there! Let's get started. Happy weekend! Here's your weather for Saturday, October 3. Saturday! No school and no hurry today. Shanghai is going to be drizzly today. Temperatures will go up to 22 degrees, with a low of 18. A mild sort of day, easy to be outside in. The chance of rain is 60 percent. Here's something to notice: today is almost exactly as warm as yesterday. Two days the same in a row! Don't forget your umbrella today! Looking ahead to tomorrow, it will be drizzly, reaching 23 degrees. A question for you: what song would you like to hear today? That's your weather. Have a wonderful day!</description>
+      <itunes:summary>Hello there! Let's get started. Happy weekend! Here's your weather for Saturday, October 3. Saturday! No school and no hurry today. Shanghai is going to be drizzly today. Temperatures will go up to 22 degrees, with a low of 18. A mild sort of day, easy to be outside in. The chance of rain is 60 percent. Here's something to notice: today is almost exactly as warm as yesterday. Two days the same in a row! Don't forget your umbrella today! Looking ahead to tomorrow, it will be drizzly, reaching 23 degrees. A question for you: what song would you like to hear today? That's your weather. Have a wonderful day!</itunes:summary>
+      <pubDate>Sat, 03 Oct 2026 08:06:56 +0800</pubDate>
       <guid isPermaLink="false">daily-weather</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="334800" type="audio/mpeg"/>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="332640" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
