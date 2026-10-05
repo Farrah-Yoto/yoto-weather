@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Mon, 05 Oct 2026 07:47:55 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 01:32:53 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -21,11 +21,11 @@
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
       <title>Daily Weather</title>
-      <description>Hello there! It's Monday, October 5. Time for the weather! A fresh new week begins today. Looking outside in Shanghai, today will be rather grey and cloudy. The warmest part of the day will be 22 degrees, and the coolest 17. Comfortable enough to forget about the weather altogether. The chance of rain is 12 percent. Did you know today is day 278 of the year? There are 87 days to go until the new one. Grey skies are still good for the park. Bring your ball! And here's a look ahead: tomorrow will be sunny from start to finish, with a high of 22 degrees. This week our theme is teachers. Think about something one of them taught you. And that's it for today's weather. Have a lovely time!</description>
-      <itunes:summary>Hello there! It's Monday, October 5. Time for the weather! A fresh new week begins today. Looking outside in Shanghai, today will be rather grey and cloudy. The warmest part of the day will be 22 degrees, and the coolest 17. Comfortable enough to forget about the weather altogether. The chance of rain is 12 percent. Did you know today is day 278 of the year? There are 87 days to go until the new one. Grey skies are still good for the park. Bring your ball! And here's a look ahead: tomorrow will be sunny from start to finish, with a high of 22 degrees. This week our theme is teachers. Think about something one of them taught you. And that's it for today's weather. Have a lovely time!</itunes:summary>
-      <pubDate>Mon, 05 Oct 2026 07:47:48 +0800</pubDate>
+      <description>Hi there! Here is your weather report for Tuesday, October 6. It's Tuesday, and the week is getting going. Looking outside in Shanghai, today will be bright as anything. The warmest part of the day will be 22 degrees, and the coolest 13. Nice and comfortable today, not too hot and not too cold. Rain is very unlikely today. There are 12 days to go until a special day. Can you guess which one? Sunny days are good for the park. Don't forget your sun hat. Looking ahead to tomorrow, it will be sunny from start to finish, reaching 25 degrees. Still thinking about teachers this week. Has anything surprised you? That's your weather report. See you tomorrow!</description>
+      <itunes:summary>Hi there! Here is your weather report for Tuesday, October 6. It's Tuesday, and the week is getting going. Looking outside in Shanghai, today will be bright as anything. The warmest part of the day will be 22 degrees, and the coolest 13. Nice and comfortable today, not too hot and not too cold. Rain is very unlikely today. There are 12 days to go until a special day. Can you guess which one? Sunny days are good for the park. Don't forget your sun hat. Looking ahead to tomorrow, it will be sunny from start to finish, reaching 25 degrees. Still thinking about teachers this week. Has anything surprised you? That's your weather report. See you tomorrow!</itunes:summary>
+      <pubDate>Tue, 06 Oct 2026 01:32:45 +0800</pubDate>
       <guid isPermaLink="false">daily-weather</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="355824" type="audio/mpeg"/>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="336528" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
