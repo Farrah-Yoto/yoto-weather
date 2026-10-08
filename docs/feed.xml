@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Wed, 07 Oct 2026 08:20:20 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 08:41:08 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -21,11 +21,11 @@
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
       <title>Daily Weather</title>
-      <description>Hello, and welcome! Here's your weather for Wednesday, October 7. Wednesday. We are halfway through the week! Looking outside in Shanghai, today will be clear and sunny. Temperatures will go up to 25 degrees, with a low of 13. A warm one, but nothing too fierce. There is almost no chance of rain today. Here's something to notice: today is about 2 degrees warmer than yesterday. Do you think you can feel it? Sunny days are good for the park. Don't forget your sun hat. And here's a look ahead: tomorrow will be dull and cloudy, with a high of 24 degrees. Tell someone about teachers today. That's your weather report. See you tomorrow!</description>
-      <itunes:summary>Hello, and welcome! Here's your weather for Wednesday, October 7. Wednesday. We are halfway through the week! Looking outside in Shanghai, today will be clear and sunny. Temperatures will go up to 25 degrees, with a low of 13. A warm one, but nothing too fierce. There is almost no chance of rain today. Here's something to notice: today is about 2 degrees warmer than yesterday. Do you think you can feel it? Sunny days are good for the park. Don't forget your sun hat. And here's a look ahead: tomorrow will be dull and cloudy, with a high of 24 degrees. Tell someone about teachers today. That's your weather report. See you tomorrow!</itunes:summary>
-      <pubDate>Wed, 07 Oct 2026 08:20:17 +0800</pubDate>
+      <description>Hello! Lovely to see you. Welcome to your weather report for Thursday, October 8. It's Thursday, almost the end of the week. In Shanghai today, expect it to be part sun and part cloud. The high will be 25 degrees, and the low will be 14 degrees. It should feel gently warm all day. You probably won't need a raincoat today. The sun goes down at 5:30 this evening, about 2 minutes earlier than yesterday. Can you feel the days getting shorter? A great day for the garden, or for drawing with chalk outside. Looking ahead to tomorrow, it will be damp with light drizzle, reaching 25 degrees. This week is all about teachers. What is your favourite part? That's your weather report. See you tomorrow!</description>
+      <itunes:summary>Hello! Lovely to see you. Welcome to your weather report for Thursday, October 8. It's Thursday, almost the end of the week. In Shanghai today, expect it to be part sun and part cloud. The high will be 25 degrees, and the low will be 14 degrees. It should feel gently warm all day. You probably won't need a raincoat today. The sun goes down at 5:30 this evening, about 2 minutes earlier than yesterday. Can you feel the days getting shorter? A great day for the garden, or for drawing with chalk outside. Looking ahead to tomorrow, it will be damp with light drizzle, reaching 25 degrees. This week is all about teachers. What is your favourite part? That's your weather report. See you tomorrow!</itunes:summary>
+      <pubDate>Thu, 08 Oct 2026 08:41:03 +0800</pubDate>
       <guid isPermaLink="false">daily-weather</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="329472" type="audio/mpeg"/>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="352368" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
