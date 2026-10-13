@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Mon, 12 Oct 2026 08:10:14 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 00:33:43 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -21,11 +21,11 @@
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
       <title>Daily Weather</title>
-      <description>Hello there! Let's find out what the weather is like on this Monday, October 12. It's Monday, the start of a brand new week. Today in Shanghai, it will be cloudy with hardly any sun. It will reach 26 degrees, and drop down to 17 degrees. It should feel gently warm all day. Rain is very unlikely today. The sun goes down at 5:26 this evening, about 2 minutes earlier than yesterday. Can you feel the days getting shorter? A comfortable day for a walk, not too hot and not too cold. Looking ahead to tomorrow, it will be under a blanket of cloud, reaching 26 degrees. This week our theme is jumpers and socks. Notice which ones are cosiest. And that's the weather. Have a brilliant day!</description>
-      <itunes:summary>Hello there! Let's find out what the weather is like on this Monday, October 12. It's Monday, the start of a brand new week. Today in Shanghai, it will be cloudy with hardly any sun. It will reach 26 degrees, and drop down to 17 degrees. It should feel gently warm all day. Rain is very unlikely today. The sun goes down at 5:26 this evening, about 2 minutes earlier than yesterday. Can you feel the days getting shorter? A comfortable day for a walk, not too hot and not too cold. Looking ahead to tomorrow, it will be under a blanket of cloud, reaching 26 degrees. This week our theme is jumpers and socks. Notice which ones are cosiest. And that's the weather. Have a brilliant day!</itunes:summary>
-      <pubDate>Mon, 12 Oct 2026 08:10:06 +0800</pubDate>
+      <description>Hello, and welcome! Let's find out what the weather is like on this Wednesday, October 14. Wednesday. We are halfway through the week! Shanghai is going to be grey from start to finish today. The warmest part of the day will be 24 degrees, and the coolest 18. It should feel gently warm all day. Rain is very unlikely today. There are 4 days to go until a special day. Can you guess which one? A comfortable day for a walk, not too hot and not too cold. And here's a look ahead: tomorrow will be under a blanket of cloud, with a high of 26 degrees. Have you thought any more about jumpers and socks? That's your weather report. See you tomorrow!</description>
+      <itunes:summary>Hello, and welcome! Let's find out what the weather is like on this Wednesday, October 14. Wednesday. We are halfway through the week! Shanghai is going to be grey from start to finish today. The warmest part of the day will be 24 degrees, and the coolest 18. It should feel gently warm all day. Rain is very unlikely today. There are 4 days to go until a special day. Can you guess which one? A comfortable day for a walk, not too hot and not too cold. And here's a look ahead: tomorrow will be under a blanket of cloud, with a high of 26 degrees. Have you thought any more about jumpers and socks? That's your weather report. See you tomorrow!</itunes:summary>
+      <pubDate>Wed, 14 Oct 2026 00:33:39 +0800</pubDate>
       <guid isPermaLink="false">daily-weather</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="351936" type="audio/mpeg"/>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="325872" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
