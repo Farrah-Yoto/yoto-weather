@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Sun, 18 Oct 2026 06:51:12 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 06:43:49 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -21,11 +21,11 @@
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
       <title>Daily Weather</title>
-      <description>Hello! It's the Double Ninth Festival, a day to care for grandparents. Here is your weather report for Sunday, October 18. It's Sunday, a good day to rest and get ready for the week. Here in Shanghai, the day will be drizzly. The high will be 33 degrees, and the low will be 23 degrees. Properly hot today, the kind that makes you seek out shade. Rain is about 73 percent likely today. There are 13 days to go until a special day. Can you guess which one? Don't forget your umbrella today! And here's a look ahead: tomorrow will be drizzly, with a high of 26 degrees. Something to think about: what colour is today, do you think? And that's the weather. Have a brilliant day!</description>
-      <itunes:summary>Hello! It's the Double Ninth Festival, a day to care for grandparents. Here is your weather report for Sunday, October 18. It's Sunday, a good day to rest and get ready for the week. Here in Shanghai, the day will be drizzly. The high will be 33 degrees, and the low will be 23 degrees. Properly hot today, the kind that makes you seek out shade. Rain is about 73 percent likely today. There are 13 days to go until a special day. Can you guess which one? Don't forget your umbrella today! And here's a look ahead: tomorrow will be drizzly, with a high of 26 degrees. Something to think about: what colour is today, do you think? And that's the weather. Have a brilliant day!</itunes:summary>
-      <pubDate>Sun, 18 Oct 2026 06:51:01 +0800</pubDate>
+      <description>Hello there! Here is your weather report for Monday, October 19. Monday again. Let's start the week well! Looking outside in Shanghai, today will be drizzly. Temperatures will go up to 27 degrees, with a low of 21. Warm enough for short sleeves. There is a 66 percent chance of rain. Here's something to notice: today is about 6 degrees cooler than yesterday. Will you need an extra layer? Pack your umbrella and your wellies! And here's a look ahead: tomorrow will be sunny with a few showers, with a high of 31 degrees. This week our theme is how early it gets dark. See what time the lights come on. And that's it for today's weather. Have a lovely time!</description>
+      <itunes:summary>Hello there! Here is your weather report for Monday, October 19. Monday again. Let's start the week well! Looking outside in Shanghai, today will be drizzly. Temperatures will go up to 27 degrees, with a low of 21. Warm enough for short sleeves. There is a 66 percent chance of rain. Here's something to notice: today is about 6 degrees cooler than yesterday. Will you need an extra layer? Pack your umbrella and your wellies! And here's a look ahead: tomorrow will be sunny with a few showers, with a high of 31 degrees. This week our theme is how early it gets dark. See what time the lights come on. And that's it for today's weather. Have a lovely time!</itunes:summary>
+      <pubDate>Mon, 19 Oct 2026 06:43:44 +0800</pubDate>
       <guid isPermaLink="false">daily-weather</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="337680" type="audio/mpeg"/>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="338832" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
