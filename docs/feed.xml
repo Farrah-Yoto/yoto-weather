@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Thu, 22 Oct 2026 07:53:09 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 16:47:15 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -21,11 +21,11 @@
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
       <title>Daily Weather</title>
-      <description>Hello! Lovely to see you. Here's your weather for Thursday, October 22. Thursday. Nearly there! Here in Shanghai, the day will be rather grey and cloudy. It will reach 21 degrees, and drop down to 14 degrees. Comfortable enough to forget about the weather altogether. Rain is very unlikely today. There are 9 days to go until a special day. Can you guess which one? Look up at the clouds today. Can you find one shaped like an animal? And here's a look ahead: tomorrow will be sunny with a few showers, with a high of 22 degrees. This week we are thinking about getting dark early. Anything new today? That's your weather. Have a wonderful day!</description>
-      <itunes:summary>Hello! Lovely to see you. Here's your weather for Thursday, October 22. Thursday. Nearly there! Here in Shanghai, the day will be rather grey and cloudy. It will reach 21 degrees, and drop down to 14 degrees. Comfortable enough to forget about the weather altogether. Rain is very unlikely today. There are 9 days to go until a special day. Can you guess which one? Look up at the clouds today. Can you find one shaped like an animal? And here's a look ahead: tomorrow will be sunny with a few showers, with a high of 22 degrees. This week we are thinking about getting dark early. Anything new today? That's your weather. Have a wonderful day!</itunes:summary>
-      <pubDate>Thu, 22 Oct 2026 07:53:02 +0800</pubDate>
+      <description>Hello! Ready for today? Here's your weather for Friday, October 23. It's Friday. The weekend is very nearly here! Looking outside in Shanghai, today will be on and off showers. The high will be 23 degrees, and the low will be 17 degrees. Pleasantly warm today, perfect for being outdoors. Rain is about 100 percent likely today. It's a blowy one out there today. Here's something to notice: today is about 2 degrees warmer than yesterday. Do you think you can feel it? Don't forget your umbrella today! Looking ahead to tomorrow, it will be on and off showers, reaching 22 degrees. Keep getting dark early in mind today. That's your weather report. See you tomorrow!</description>
+      <itunes:summary>Hello! Ready for today? Here's your weather for Friday, October 23. It's Friday. The weekend is very nearly here! Looking outside in Shanghai, today will be on and off showers. The high will be 23 degrees, and the low will be 17 degrees. Pleasantly warm today, perfect for being outdoors. Rain is about 100 percent likely today. It's a blowy one out there today. Here's something to notice: today is about 2 degrees warmer than yesterday. Do you think you can feel it? Don't forget your umbrella today! Looking ahead to tomorrow, it will be on and off showers, reaching 22 degrees. Keep getting dark early in mind today. That's your weather report. See you tomorrow!</itunes:summary>
+      <pubDate>Fri, 23 Oct 2026 16:47:06 +0800</pubDate>
       <guid isPermaLink="false">daily-weather</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="341856" type="audio/mpeg"/>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="355536" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
