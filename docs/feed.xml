@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Sat, 24 Oct 2026 07:44:10 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 06:51:10 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -21,11 +21,11 @@
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
       <title>Daily Weather</title>
-      <description>Hello there! Let's get started. It's the weekend. No school today! Welcome to your weather report for Saturday, October 24. Saturday! No school and no hurry today. Looking outside in Shanghai, today will be thundery. The high will be 22 degrees, and the low will be 19 degrees. A mild sort of day, easy to be outside in. The chance of rain is 100 percent. It's a blowy one out there today. The sun goes down at 5:13 this evening, about 2 minutes earlier than yesterday. Can you feel the days getting shorter? Pack your umbrella and your wellies! And here's a look ahead: tomorrow will be a little bit rainy, with a high of 22 degrees. A question for you: what is something you are really good at? That's your weather report. See you tomorrow!</description>
-      <itunes:summary>Hello there! Let's get started. It's the weekend. No school today! Welcome to your weather report for Saturday, October 24. Saturday! No school and no hurry today. Looking outside in Shanghai, today will be thundery. The high will be 22 degrees, and the low will be 19 degrees. A mild sort of day, easy to be outside in. The chance of rain is 100 percent. It's a blowy one out there today. The sun goes down at 5:13 this evening, about 2 minutes earlier than yesterday. Can you feel the days getting shorter? Pack your umbrella and your wellies! And here's a look ahead: tomorrow will be a little bit rainy, with a high of 22 degrees. A question for you: what is something you are really good at? That's your weather report. See you tomorrow!</itunes:summary>
-      <pubDate>Sat, 24 Oct 2026 07:44:05 +0800</pubDate>
+      <description>Hello! Happy weekend! It's Sunday, October 25. Time for the weather! It's Sunday, a good day to rest and get ready for the week. Today in Shanghai, it will be drizzly. The warmest part of the day will be 23 degrees, and the coolest 18. A warm one, but nothing too fierce. There is a 73 percent chance of rain. There's a fair breeze about today too. Did you know today is day 298 of the year? There are 67 days to go until the new one. Remember to take an umbrella with you! As for tomorrow, expect it to be rather grey and cloudy, with a high of 23 degrees. Here's a question: what would you plant if you had a garden? That's your weather report. See you tomorrow!</description>
+      <itunes:summary>Hello! Happy weekend! It's Sunday, October 25. Time for the weather! It's Sunday, a good day to rest and get ready for the week. Today in Shanghai, it will be drizzly. The warmest part of the day will be 23 degrees, and the coolest 18. A warm one, but nothing too fierce. There is a 73 percent chance of rain. There's a fair breeze about today too. Did you know today is day 298 of the year? There are 67 days to go until the new one. Remember to take an umbrella with you! As for tomorrow, expect it to be rather grey and cloudy, with a high of 23 degrees. Here's a question: what would you plant if you had a garden? That's your weather report. See you tomorrow!</itunes:summary>
+      <pubDate>Sun, 25 Oct 2026 06:51:05 +0800</pubDate>
       <guid isPermaLink="false">daily-weather</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="390528" type="audio/mpeg"/>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="353376" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
