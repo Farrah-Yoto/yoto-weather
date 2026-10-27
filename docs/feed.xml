@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Mon, 26 Oct 2026 06:59:46 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 08:13:08 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -21,11 +21,11 @@
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
       <title>Daily Weather</title>
-      <description>Hello there! Here's your weather for Monday, October 26. Monday again. Let's start the week well! Here in Shanghai, the day will be full of sunshine. Temperatures will go up to 23 degrees, with a low of 16. Warm enough for short sleeves. You probably won't need a raincoat today. There are 5 days to go until a special day. Can you guess which one? A great day for the garden, or for drawing with chalk outside. And here's a look ahead: tomorrow will be dull and cloudy, with a high of 21 degrees. This week our theme is trying something hard. Hard things get easier with practice. That's your weather report. See you tomorrow!</description>
-      <itunes:summary>Hello there! Here's your weather for Monday, October 26. Monday again. Let's start the week well! Here in Shanghai, the day will be full of sunshine. Temperatures will go up to 23 degrees, with a low of 16. Warm enough for short sleeves. You probably won't need a raincoat today. There are 5 days to go until a special day. Can you guess which one? A great day for the garden, or for drawing with chalk outside. And here's a look ahead: tomorrow will be dull and cloudy, with a high of 21 degrees. This week our theme is trying something hard. Hard things get easier with practice. That's your weather report. See you tomorrow!</itunes:summary>
-      <pubDate>Mon, 26 Oct 2026 06:59:39 +0800</pubDate>
+      <description>Hi there! Here is your weather report for Tuesday, October 27. Tuesday already. Well done for a good start! Shanghai is going to be a little bit rainy today. It will reach 20 degrees, and drop down to 14 degrees. A mild sort of day, easy to be outside in. The chance of rain is 10 percent. Here's something to notice: today is about 3 degrees cooler than yesterday. Will you need an extra layer? Listen out for the rain on the window today. It sounds like tiny drums. Looking ahead to tomorrow, it will be overcast, reaching 20 degrees. Tell someone about trying something hard today. That's your weather. Have a wonderful day!</description>
+      <itunes:summary>Hi there! Here is your weather report for Tuesday, October 27. Tuesday already. Well done for a good start! Shanghai is going to be a little bit rainy today. It will reach 20 degrees, and drop down to 14 degrees. A mild sort of day, easy to be outside in. The chance of rain is 10 percent. Here's something to notice: today is about 3 degrees cooler than yesterday. Will you need an extra layer? Listen out for the rain on the window today. It sounds like tiny drums. Looking ahead to tomorrow, it will be overcast, reaching 20 degrees. Tell someone about trying something hard today. That's your weather. Have a wonderful day!</itunes:summary>
+      <pubDate>Tue, 27 Oct 2026 08:13:03 +0800</pubDate>
       <guid isPermaLink="false">daily-weather</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="324720" type="audio/mpeg"/>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="332208" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
