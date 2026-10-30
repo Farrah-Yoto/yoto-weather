@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Thu, 29 Oct 2026 08:34:26 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 08:33:59 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -21,11 +21,11 @@
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
       <title>Daily Weather</title>
-      <description>Hello! Lovely to see you. It's Thursday, October 29. Time for the weather! It's Thursday, almost the end of the week. Here in Shanghai, the day will be a little bit rainy. Temperatures will go up to 23 degrees, with a low of 15. A warm one, but nothing too fierce. The chance of rain is 43 percent. Did you know today is day 302 of the year? There are 63 days to go until the new one. Listen out for the rain on the window today. It sounds like tiny drums. And here's a look ahead: tomorrow will be clear and sunny, with a high of 22 degrees. Think about trying something hard today. Would you like to know more about it? And that's the weather. Have a brilliant day!</description>
-      <itunes:summary>Hello! Lovely to see you. It's Thursday, October 29. Time for the weather! It's Thursday, almost the end of the week. Here in Shanghai, the day will be a little bit rainy. Temperatures will go up to 23 degrees, with a low of 15. A warm one, but nothing too fierce. The chance of rain is 43 percent. Did you know today is day 302 of the year? There are 63 days to go until the new one. Listen out for the rain on the window today. It sounds like tiny drums. And here's a look ahead: tomorrow will be clear and sunny, with a high of 22 degrees. Think about trying something hard today. Would you like to know more about it? And that's the weather. Have a brilliant day!</itunes:summary>
-      <pubDate>Thu, 29 Oct 2026 08:34:21 +0800</pubDate>
+      <description>Hello! Ready for today? It's Friday, October 30. Time for the weather! Friday at last. One more day and it's the weekend. Here in Shanghai, the day will be quite foggy. The high will be 22 degrees, and the low will be 14 degrees. Nice and comfortable today, not too hot and not too cold. There is a 50 percent chance of rain. There are 1 days to go until a special day. Can you guess which one? Pack your umbrella and your wellies! As for tomorrow, expect it to be misty and grey, with a high of 23 degrees. One more day of thinking about trying something hard. What stands out? That's your weather. Have a wonderful day!</description>
+      <itunes:summary>Hello! Ready for today? It's Friday, October 30. Time for the weather! Friday at last. One more day and it's the weekend. Here in Shanghai, the day will be quite foggy. The high will be 22 degrees, and the low will be 14 degrees. Nice and comfortable today, not too hot and not too cold. There is a 50 percent chance of rain. There are 1 days to go until a special day. Can you guess which one? Pack your umbrella and your wellies! As for tomorrow, expect it to be misty and grey, with a high of 23 degrees. One more day of thinking about trying something hard. What stands out? That's your weather. Have a wonderful day!</itunes:summary>
+      <pubDate>Fri, 30 Oct 2026 08:33:49 +0800</pubDate>
       <guid isPermaLink="false">daily-weather</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="361296" type="audio/mpeg"/>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="342288" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
