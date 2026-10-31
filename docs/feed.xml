@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Fri, 30 Oct 2026 08:33:59 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 08:19:55 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -21,11 +21,11 @@
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
       <title>Daily Weather</title>
-      <description>Hello! Ready for today? It's Friday, October 30. Time for the weather! Friday at last. One more day and it's the weekend. Here in Shanghai, the day will be quite foggy. The high will be 22 degrees, and the low will be 14 degrees. Nice and comfortable today, not too hot and not too cold. There is a 50 percent chance of rain. There are 1 days to go until a special day. Can you guess which one? Pack your umbrella and your wellies! As for tomorrow, expect it to be misty and grey, with a high of 23 degrees. One more day of thinking about trying something hard. What stands out? That's your weather. Have a wonderful day!</description>
-      <itunes:summary>Hello! Ready for today? It's Friday, October 30. Time for the weather! Friday at last. One more day and it's the weekend. Here in Shanghai, the day will be quite foggy. The high will be 22 degrees, and the low will be 14 degrees. Nice and comfortable today, not too hot and not too cold. There is a 50 percent chance of rain. There are 1 days to go until a special day. Can you guess which one? Pack your umbrella and your wellies! As for tomorrow, expect it to be misty and grey, with a high of 23 degrees. One more day of thinking about trying something hard. What stands out? That's your weather. Have a wonderful day!</itunes:summary>
-      <pubDate>Fri, 30 Oct 2026 08:33:49 +0800</pubDate>
+      <description>Hello there! Let's get started. Happy Halloween! Trick or treat! Here's your weather for Saturday, October 31. Saturday! No school and no hurry today. Here in Shanghai, the day will be foggy and misty. It will reach 22 degrees, and drop down to 12 degrees. Nice and comfortable today, not too hot and not too cold. There is almost no chance of rain today. Here's something to notice: today is almost exactly as warm as yesterday. Two days the same in a row! See how far you can see through the fog this morning. Looking ahead to tomorrow, it will be wet right through the day, reaching 26 degrees. Here's a question for you today: if you could bring one thing to the park, what would it be? That's your weather report. See you tomorrow!</description>
+      <itunes:summary>Hello there! Let's get started. Happy Halloween! Trick or treat! Here's your weather for Saturday, October 31. Saturday! No school and no hurry today. Here in Shanghai, the day will be foggy and misty. It will reach 22 degrees, and drop down to 12 degrees. Nice and comfortable today, not too hot and not too cold. There is almost no chance of rain today. Here's something to notice: today is almost exactly as warm as yesterday. Two days the same in a row! See how far you can see through the fog this morning. Looking ahead to tomorrow, it will be wet right through the day, reaching 26 degrees. Here's a question for you today: if you could bring one thing to the park, what would it be? That's your weather report. See you tomorrow!</itunes:summary>
+      <pubDate>Sat, 31 Oct 2026 08:19:46 +0800</pubDate>
       <guid isPermaLink="false">daily-weather</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="342288" type="audio/mpeg"/>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="379728" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
