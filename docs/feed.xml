@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Sat, 31 Oct 2026 08:19:55 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 07:55:49 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -21,11 +21,11 @@
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
       <title>Daily Weather</title>
-      <description>Hello there! Let's get started. Happy Halloween! Trick or treat! Here's your weather for Saturday, October 31. Saturday! No school and no hurry today. Here in Shanghai, the day will be foggy and misty. It will reach 22 degrees, and drop down to 12 degrees. Nice and comfortable today, not too hot and not too cold. There is almost no chance of rain today. Here's something to notice: today is almost exactly as warm as yesterday. Two days the same in a row! See how far you can see through the fog this morning. Looking ahead to tomorrow, it will be wet right through the day, reaching 26 degrees. Here's a question for you today: if you could bring one thing to the park, what would it be? That's your weather report. See you tomorrow!</description>
-      <itunes:summary>Hello there! Let's get started. Happy Halloween! Trick or treat! Here's your weather for Saturday, October 31. Saturday! No school and no hurry today. Here in Shanghai, the day will be foggy and misty. It will reach 22 degrees, and drop down to 12 degrees. Nice and comfortable today, not too hot and not too cold. There is almost no chance of rain today. Here's something to notice: today is almost exactly as warm as yesterday. Two days the same in a row! See how far you can see through the fog this morning. Looking ahead to tomorrow, it will be wet right through the day, reaching 26 degrees. Here's a question for you today: if you could bring one thing to the park, what would it be? That's your weather report. See you tomorrow!</itunes:summary>
-      <pubDate>Sat, 31 Oct 2026 08:19:46 +0800</pubDate>
+      <description>Hello! It's the weekend. No school today! It's Sunday, November 1. Time for the weather! It's Sunday, a good day to rest and get ready for the week. In Shanghai today, expect it to be rainy on and off. The high will be 27 degrees, and the low will be 16 degrees. Pleasantly warm today, perfect for being outdoors. Rain is about 92 percent likely today. The sun goes down at 5:05 this evening, about 2 minutes earlier than yesterday. Can you feel the days getting shorter? Remember to take an umbrella with you! Looking ahead to tomorrow, it will be grey and rainy, reaching 20 degrees. Something to think about: what is your favourite kind of weather, and why? And that's it for today's weather. Have a lovely time!</description>
+      <itunes:summary>Hello! It's the weekend. No school today! It's Sunday, November 1. Time for the weather! It's Sunday, a good day to rest and get ready for the week. In Shanghai today, expect it to be rainy on and off. The high will be 27 degrees, and the low will be 16 degrees. Pleasantly warm today, perfect for being outdoors. Rain is about 92 percent likely today. The sun goes down at 5:05 this evening, about 2 minutes earlier than yesterday. Can you feel the days getting shorter? Remember to take an umbrella with you! Looking ahead to tomorrow, it will be grey and rainy, reaching 20 degrees. Something to think about: what is your favourite kind of weather, and why? And that's it for today's weather. Have a lovely time!</itunes:summary>
+      <pubDate>Sun, 01 Nov 2026 07:55:39 +0800</pubDate>
       <guid isPermaLink="false">daily-weather</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="379728" type="audio/mpeg"/>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="368352" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
