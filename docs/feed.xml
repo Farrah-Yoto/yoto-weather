@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Sun, 01 Nov 2026 07:55:49 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 08:11:32 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -21,11 +21,11 @@
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
       <title>Daily Weather</title>
-      <description>Hello! It's the weekend. No school today! It's Sunday, November 1. Time for the weather! It's Sunday, a good day to rest and get ready for the week. In Shanghai today, expect it to be rainy on and off. The high will be 27 degrees, and the low will be 16 degrees. Pleasantly warm today, perfect for being outdoors. Rain is about 92 percent likely today. The sun goes down at 5:05 this evening, about 2 minutes earlier than yesterday. Can you feel the days getting shorter? Remember to take an umbrella with you! Looking ahead to tomorrow, it will be grey and rainy, reaching 20 degrees. Something to think about: what is your favourite kind of weather, and why? And that's it for today's weather. Have a lovely time!</description>
-      <itunes:summary>Hello! It's the weekend. No school today! It's Sunday, November 1. Time for the weather! It's Sunday, a good day to rest and get ready for the week. In Shanghai today, expect it to be rainy on and off. The high will be 27 degrees, and the low will be 16 degrees. Pleasantly warm today, perfect for being outdoors. Rain is about 92 percent likely today. The sun goes down at 5:05 this evening, about 2 minutes earlier than yesterday. Can you feel the days getting shorter? Remember to take an umbrella with you! Looking ahead to tomorrow, it will be grey and rainy, reaching 20 degrees. Something to think about: what is your favourite kind of weather, and why? And that's it for today's weather. Have a lovely time!</itunes:summary>
-      <pubDate>Sun, 01 Nov 2026 07:55:39 +0800</pubDate>
+      <description>Hello there! Let's find out what the weather is like on this Monday, November 2. Monday again. Let's start the week well! Looking outside in Shanghai, today will be damp with light drizzle. Temperatures will go up to 20 degrees, with a low of 13. It should feel pleasantly mild. There is a 100 percent chance of rain. Did you know today is day 306 of the year? There are 59 days to go until the new one. Pack your umbrella and your wellies! As for tomorrow, expect it to be grey from start to finish, with a high of 21 degrees. This week our theme is animals getting ready for winter. They are busy now. That's your weather. Have a wonderful day!</description>
+      <itunes:summary>Hello there! Let's find out what the weather is like on this Monday, November 2. Monday again. Let's start the week well! Looking outside in Shanghai, today will be damp with light drizzle. Temperatures will go up to 20 degrees, with a low of 13. It should feel pleasantly mild. There is a 100 percent chance of rain. Did you know today is day 306 of the year? There are 59 days to go until the new one. Pack your umbrella and your wellies! As for tomorrow, expect it to be grey from start to finish, with a high of 21 degrees. This week our theme is animals getting ready for winter. They are busy now. That's your weather. Have a wonderful day!</itunes:summary>
+      <pubDate>Mon, 02 Nov 2026 08:11:16 +0800</pubDate>
       <guid isPermaLink="false">daily-weather</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="368352" type="audio/mpeg"/>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="332784" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
