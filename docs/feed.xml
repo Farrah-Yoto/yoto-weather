@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Wed, 04 Nov 2026 00:43:14 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 00:40:14 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -21,11 +21,11 @@
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
       <title>Daily Weather</title>
-      <description>Hello, and welcome! Let's find out what the weather is like on this Wednesday, November 4. It's Wednesday, right in the middle of the week. In Shanghai today, expect it to be on and off showers. Temperatures will go up to 19 degrees, with a low of 16. Nice and comfortable today, not too hot and not too cold. There is a 100 percent chance of rain. The sun goes down at 5:03 this evening, about 2 minutes earlier than yesterday. Can you feel the days getting shorter? Pack your umbrella and your wellies! Looking ahead to tomorrow, it will be grey from start to finish, reaching 21 degrees. What would you tell a friend about animals getting ready for winter? That's your weather report. See you tomorrow!</description>
-      <itunes:summary>Hello, and welcome! Let's find out what the weather is like on this Wednesday, November 4. It's Wednesday, right in the middle of the week. In Shanghai today, expect it to be on and off showers. Temperatures will go up to 19 degrees, with a low of 16. Nice and comfortable today, not too hot and not too cold. There is a 100 percent chance of rain. The sun goes down at 5:03 this evening, about 2 minutes earlier than yesterday. Can you feel the days getting shorter? Pack your umbrella and your wellies! Looking ahead to tomorrow, it will be grey from start to finish, reaching 21 degrees. What would you tell a friend about animals getting ready for winter? That's your weather report. See you tomorrow!</itunes:summary>
-      <pubDate>Wed, 04 Nov 2026 00:42:58 +0800</pubDate>
+      <description>Hello! Lovely to see you. Here is your weather report for Thursday, November 5. Thursday. Nearly there! Here in Shanghai, the day will be overcast. The high will be 19 degrees, and the low will be 14 degrees. Nice and comfortable today, not too hot and not too cold. There is a 18 percent chance of rain. Did you know today is day 309 of the year? There are 56 days to go until the new one. Cloudy days are perfect for the library or a museum. As for tomorrow, expect it to be rather grey and cloudy, with a high of 20 degrees. Still thinking about animals getting ready for winter this week. Has anything surprised you? That's your weather report. See you tomorrow!</description>
+      <itunes:summary>Hello! Lovely to see you. Here is your weather report for Thursday, November 5. Thursday. Nearly there! Here in Shanghai, the day will be overcast. The high will be 19 degrees, and the low will be 14 degrees. Nice and comfortable today, not too hot and not too cold. There is a 18 percent chance of rain. Did you know today is day 309 of the year? There are 56 days to go until the new one. Cloudy days are perfect for the library or a museum. As for tomorrow, expect it to be rather grey and cloudy, with a high of 20 degrees. Still thinking about animals getting ready for winter this week. Has anything surprised you? That's your weather report. See you tomorrow!</itunes:summary>
+      <pubDate>Thu, 05 Nov 2026 00:39:54 +0800</pubDate>
       <guid isPermaLink="false">daily-weather</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="336096" type="audio/mpeg"/>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="353952" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
