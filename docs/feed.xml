@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Thu, 05 Nov 2026 00:40:14 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 00:55:49 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -21,11 +21,11 @@
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
       <title>Daily Weather</title>
-      <description>Hello! Lovely to see you. Here is your weather report for Thursday, November 5. Thursday. Nearly there! Here in Shanghai, the day will be overcast. The high will be 19 degrees, and the low will be 14 degrees. Nice and comfortable today, not too hot and not too cold. There is a 18 percent chance of rain. Did you know today is day 309 of the year? There are 56 days to go until the new one. Cloudy days are perfect for the library or a museum. As for tomorrow, expect it to be rather grey and cloudy, with a high of 20 degrees. Still thinking about animals getting ready for winter this week. Has anything surprised you? That's your weather report. See you tomorrow!</description>
-      <itunes:summary>Hello! Lovely to see you. Here is your weather report for Thursday, November 5. Thursday. Nearly there! Here in Shanghai, the day will be overcast. The high will be 19 degrees, and the low will be 14 degrees. Nice and comfortable today, not too hot and not too cold. There is a 18 percent chance of rain. Did you know today is day 309 of the year? There are 56 days to go until the new one. Cloudy days are perfect for the library or a museum. As for tomorrow, expect it to be rather grey and cloudy, with a high of 20 degrees. Still thinking about animals getting ready for winter this week. Has anything surprised you? That's your weather report. See you tomorrow!</itunes:summary>
-      <pubDate>Thu, 05 Nov 2026 00:39:54 +0800</pubDate>
+      <description>Hello! Ready for today? Let's find out what the weather is like on this Friday, November 6. Friday at last. One more day and it's the weekend. Shanghai is going to be grey from start to finish today. It will reach 20 degrees, and drop down to 13 degrees. A mild sort of day, easy to be outside in. You probably won't need a raincoat today. Here's something to notice: today is almost exactly as warm as yesterday. Two days the same in a row! Look up at the clouds today. Can you find one shaped like an animal? And here's a look ahead: tomorrow will be cloudy with hardly any sun, with a high of 19 degrees. Tell someone about animals getting ready for winter today. And that's the weather. Have a brilliant day!</description>
+      <itunes:summary>Hello! Ready for today? Let's find out what the weather is like on this Friday, November 6. Friday at last. One more day and it's the weekend. Shanghai is going to be grey from start to finish today. It will reach 20 degrees, and drop down to 13 degrees. A mild sort of day, easy to be outside in. You probably won't need a raincoat today. Here's something to notice: today is almost exactly as warm as yesterday. Two days the same in a row! Look up at the clouds today. Can you find one shaped like an animal? And here's a look ahead: tomorrow will be cloudy with hardly any sun, with a high of 19 degrees. Tell someone about animals getting ready for winter today. And that's the weather. Have a brilliant day!</itunes:summary>
+      <pubDate>Fri, 06 Nov 2026 00:55:33 +0800</pubDate>
       <guid isPermaLink="false">daily-weather</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="353952" type="audio/mpeg"/>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="361296" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
