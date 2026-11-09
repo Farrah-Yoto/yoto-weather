@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Sun, 08 Nov 2026 08:09:32 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 08:28:09 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -21,11 +21,11 @@
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
       <title>Daily Weather</title>
-      <description>Hello! Happy weekend! A whole day to play. Let's find out what the weather is like on this Sunday, November 8. It's Sunday, a good day to rest and get ready for the week. Today in Shanghai, it will be a rainy sort of day. The warmest part of the day will be 20 degrees, and the coolest 14. A mild sort of day, easy to be outside in. The chance of rain is 100 percent. Did you know today is day 312 of the year? There are 53 days to go until the new one. Pack your umbrella and your wellies! Looking ahead to tomorrow, it will be a little bit rainy, reaching 16 degrees. Think about this: if you could build anything at all, what would you build? That's your weather report. See you tomorrow!</description>
-      <itunes:summary>Hello! Happy weekend! A whole day to play. Let's find out what the weather is like on this Sunday, November 8. It's Sunday, a good day to rest and get ready for the week. Today in Shanghai, it will be a rainy sort of day. The warmest part of the day will be 20 degrees, and the coolest 14. A mild sort of day, easy to be outside in. The chance of rain is 100 percent. Did you know today is day 312 of the year? There are 53 days to go until the new one. Pack your umbrella and your wellies! Looking ahead to tomorrow, it will be a little bit rainy, reaching 16 degrees. Think about this: if you could build anything at all, what would you build? That's your weather report. See you tomorrow!</itunes:summary>
-      <pubDate>Sun, 08 Nov 2026 08:09:24 +0800</pubDate>
+      <description>Hello there! Here is your weather report for Monday, November 9. Monday again. Let's start the week well! In Shanghai today, expect it to be damp with light drizzle. Temperatures will go up to 15 degrees, with a low of 8. Comfortable enough to forget about the weather altogether. Rain is about 62 percent likely today. There's a fair breeze about today too. The sun goes down at 4:59 this evening, about 2 minutes earlier than yesterday. Can you feel the days getting shorter? Pack your umbrella and your wellies! And here's a look ahead: tomorrow will be under a blanket of cloud, with a high of 15 degrees. This week our theme is warm drinks. Notice how they warm your hands first. That's your weather report. See you tomorrow!</description>
+      <itunes:summary>Hello there! Here is your weather report for Monday, November 9. Monday again. Let's start the week well! In Shanghai today, expect it to be damp with light drizzle. Temperatures will go up to 15 degrees, with a low of 8. Comfortable enough to forget about the weather altogether. Rain is about 62 percent likely today. There's a fair breeze about today too. The sun goes down at 4:59 this evening, about 2 minutes earlier than yesterday. Can you feel the days getting shorter? Pack your umbrella and your wellies! And here's a look ahead: tomorrow will be under a blanket of cloud, with a high of 15 degrees. This week our theme is warm drinks. Notice how they warm your hands first. That's your weather report. See you tomorrow!</itunes:summary>
+      <pubDate>Mon, 09 Nov 2026 08:27:57 +0800</pubDate>
       <guid isPermaLink="false">daily-weather</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="352512" type="audio/mpeg"/>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="361296" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
