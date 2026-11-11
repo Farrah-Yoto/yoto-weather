@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Wed, 11 Nov 2026 00:39:49 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 00:44:19 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -21,11 +21,11 @@
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
       <title>Daily Weather</title>
-      <description>Hello, and welcome! It's Wednesday, November 11. Time for the weather! Wednesday. We are halfway through the week! Here in Shanghai, the day will be grey from start to finish. It will reach 18 degrees, and drop down to 6 degrees. Nice and comfortable today, not too hot and not too cold. There is almost no chance of rain today. There are 43 days to go until a special day. Can you guess which one? Grey skies are still good for the park. Bring your ball! And here's a look ahead: tomorrow will be damp with light drizzle, with a high of 22 degrees. This week we are thinking about warm drinks. Anything new today? And that's it for today's weather. Have a lovely time!</description>
-      <itunes:summary>Hello, and welcome! It's Wednesday, November 11. Time for the weather! Wednesday. We are halfway through the week! Here in Shanghai, the day will be grey from start to finish. It will reach 18 degrees, and drop down to 6 degrees. Nice and comfortable today, not too hot and not too cold. There is almost no chance of rain today. There are 43 days to go until a special day. Can you guess which one? Grey skies are still good for the park. Bring your ball! And here's a look ahead: tomorrow will be damp with light drizzle, with a high of 22 degrees. This week we are thinking about warm drinks. Anything new today? And that's it for today's weather. Have a lovely time!</itunes:summary>
-      <pubDate>Wed, 11 Nov 2026 00:39:26 +0800</pubDate>
+      <description>Hello! Lovely to see you. Here's your weather for Thursday, November 12. Thursday. Nearly there! Today in Shanghai, it will be a little bit rainy. It will reach 19 degrees, and drop down to 12 degrees. It will feel just right out there. Rain is about 69 percent likely today. Here's something to notice: today is almost exactly as warm as yesterday. Two days the same in a row! Remember to take an umbrella with you! Looking ahead to tomorrow, it will be a little bit rainy, reaching 23 degrees. Keep warm drinks in mind today. And that's the weather. Have a brilliant day!</description>
+      <itunes:summary>Hello! Lovely to see you. Here's your weather for Thursday, November 12. Thursday. Nearly there! Today in Shanghai, it will be a little bit rainy. It will reach 19 degrees, and drop down to 12 degrees. It will feel just right out there. Rain is about 69 percent likely today. Here's something to notice: today is almost exactly as warm as yesterday. Two days the same in a row! Remember to take an umbrella with you! Looking ahead to tomorrow, it will be a little bit rainy, reaching 23 degrees. Keep warm drinks in mind today. And that's the weather. Have a brilliant day!</itunes:summary>
+      <pubDate>Thu, 12 Nov 2026 00:44:09 +0800</pubDate>
       <guid isPermaLink="false">daily-weather</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="353808" type="audio/mpeg"/>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="310176" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
