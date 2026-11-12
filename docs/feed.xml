@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Thu, 12 Nov 2026 00:44:19 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 01:12:55 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -21,11 +21,11 @@
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
       <title>Daily Weather</title>
-      <description>Hello! Lovely to see you. Here's your weather for Thursday, November 12. Thursday. Nearly there! Today in Shanghai, it will be a little bit rainy. It will reach 19 degrees, and drop down to 12 degrees. It will feel just right out there. Rain is about 69 percent likely today. Here's something to notice: today is almost exactly as warm as yesterday. Two days the same in a row! Remember to take an umbrella with you! Looking ahead to tomorrow, it will be a little bit rainy, reaching 23 degrees. Keep warm drinks in mind today. And that's the weather. Have a brilliant day!</description>
-      <itunes:summary>Hello! Lovely to see you. Here's your weather for Thursday, November 12. Thursday. Nearly there! Today in Shanghai, it will be a little bit rainy. It will reach 19 degrees, and drop down to 12 degrees. It will feel just right out there. Rain is about 69 percent likely today. Here's something to notice: today is almost exactly as warm as yesterday. Two days the same in a row! Remember to take an umbrella with you! Looking ahead to tomorrow, it will be a little bit rainy, reaching 23 degrees. Keep warm drinks in mind today. And that's the weather. Have a brilliant day!</itunes:summary>
-      <pubDate>Thu, 12 Nov 2026 00:44:09 +0800</pubDate>
+      <description>Hello! Ready for today? It's Friday, November 13. Time for the weather! It's Friday. The weekend is very nearly here! Here in Shanghai, the day will be damp with light drizzle. The high will be 20 degrees, and the low will be 15 degrees. Nice and comfortable today, not too hot and not too cold. Rain is about 88 percent likely today. The sun goes down at 4:56 this evening, about 1 minutes earlier than yesterday. Can you feel the days getting shorter? Pack your umbrella and your wellies! As for tomorrow, expect it to be showery, with a high of 19 degrees. Have you thought any more about warm drinks? That's your weather. Have a wonderful day!</description>
+      <itunes:summary>Hello! Ready for today? It's Friday, November 13. Time for the weather! It's Friday. The weekend is very nearly here! Here in Shanghai, the day will be damp with light drizzle. The high will be 20 degrees, and the low will be 15 degrees. Nice and comfortable today, not too hot and not too cold. Rain is about 88 percent likely today. The sun goes down at 4:56 this evening, about 1 minutes earlier than yesterday. Can you feel the days getting shorter? Pack your umbrella and your wellies! As for tomorrow, expect it to be showery, with a high of 19 degrees. Have you thought any more about warm drinks? That's your weather. Have a wonderful day!</itunes:summary>
+      <pubDate>Fri, 13 Nov 2026 01:12:36 +0800</pubDate>
       <guid isPermaLink="false">daily-weather</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="310176" type="audio/mpeg"/>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="344160" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
