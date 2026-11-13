@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Fri, 13 Nov 2026 01:12:55 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 00:50:09 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -21,11 +21,11 @@
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
       <title>Daily Weather</title>
-      <description>Hello! Ready for today? It's Friday, November 13. Time for the weather! It's Friday. The weekend is very nearly here! Here in Shanghai, the day will be damp with light drizzle. The high will be 20 degrees, and the low will be 15 degrees. Nice and comfortable today, not too hot and not too cold. Rain is about 88 percent likely today. The sun goes down at 4:56 this evening, about 1 minutes earlier than yesterday. Can you feel the days getting shorter? Pack your umbrella and your wellies! As for tomorrow, expect it to be showery, with a high of 19 degrees. Have you thought any more about warm drinks? That's your weather. Have a wonderful day!</description>
-      <itunes:summary>Hello! Ready for today? It's Friday, November 13. Time for the weather! It's Friday. The weekend is very nearly here! Here in Shanghai, the day will be damp with light drizzle. The high will be 20 degrees, and the low will be 15 degrees. Nice and comfortable today, not too hot and not too cold. Rain is about 88 percent likely today. The sun goes down at 4:56 this evening, about 1 minutes earlier than yesterday. Can you feel the days getting shorter? Pack your umbrella and your wellies! As for tomorrow, expect it to be showery, with a high of 19 degrees. Have you thought any more about warm drinks? That's your weather. Have a wonderful day!</itunes:summary>
-      <pubDate>Fri, 13 Nov 2026 01:12:36 +0800</pubDate>
+      <description>Hello there! Let's get started. Happy weekend! A whole day to play. Here's your weather for Saturday, November 14. Saturday! No school and no hurry today. Looking outside in Shanghai, today will be on and off showers. The high will be 20 degrees, and the low will be 16 degrees. Nice and comfortable today, not too hot and not too cold. The chance of rain is 100 percent. Did you know today is day 318 of the year? There are 47 days to go until the new one. Don't forget your umbrella today! As for tomorrow, expect it to be covered in clouds, with a high of 20 degrees. Think about this one: what is the funniest sound you can make? And that's it for today's weather. Have a lovely time!</description>
+      <itunes:summary>Hello there! Let's get started. Happy weekend! A whole day to play. Here's your weather for Saturday, November 14. Saturday! No school and no hurry today. Looking outside in Shanghai, today will be on and off showers. The high will be 20 degrees, and the low will be 16 degrees. Nice and comfortable today, not too hot and not too cold. The chance of rain is 100 percent. Did you know today is day 318 of the year? There are 47 days to go until the new one. Don't forget your umbrella today! As for tomorrow, expect it to be covered in clouds, with a high of 20 degrees. Think about this one: what is the funniest sound you can make? And that's it for today's weather. Have a lovely time!</itunes:summary>
+      <pubDate>Sat, 14 Nov 2026 00:50:00 +0800</pubDate>
       <guid isPermaLink="false">daily-weather</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="344160" type="audio/mpeg"/>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="372528" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
