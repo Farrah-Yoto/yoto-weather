@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Mon, 16 Nov 2026 08:41:31 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 03:00:50 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -21,11 +21,11 @@
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
       <title>Daily Weather</title>
-      <description>Hello there! Let's find out what the weather is like on this Monday, November 16. Monday again. Let's start the week well! Today in Shanghai, it will be cloudy with hardly any sun. The warmest part of the day will be 19 degrees, and the coolest 12. Comfortable enough to forget about the weather altogether. Rain is very unlikely today. Here's something to notice: today is almost exactly as warm as yesterday. Two days the same in a row! Grey skies are still good for the park. Bring your ball! Looking ahead to tomorrow, it will be dull and cloudy, reaching 18 degrees. This week our theme is taking turns. Notice how it feels to wait, and to be waited for. That's your weather report. See you tomorrow!</description>
-      <itunes:summary>Hello there! Let's find out what the weather is like on this Monday, November 16. Monday again. Let's start the week well! Today in Shanghai, it will be cloudy with hardly any sun. The warmest part of the day will be 19 degrees, and the coolest 12. Comfortable enough to forget about the weather altogether. Rain is very unlikely today. Here's something to notice: today is almost exactly as warm as yesterday. Two days the same in a row! Grey skies are still good for the park. Bring your ball! Looking ahead to tomorrow, it will be dull and cloudy, reaching 18 degrees. This week our theme is taking turns. Notice how it feels to wait, and to be waited for. That's your weather report. See you tomorrow!</itunes:summary>
-      <pubDate>Mon, 16 Nov 2026 08:41:18 +0800</pubDate>
+      <description>Hi there! Welcome to your weather report for Tuesday, November 17. It's Tuesday, and the week is getting going. Today in Shanghai, it will be a little bit rainy. Temperatures will go up to 18 degrees, with a low of 12. It will feel just right out there. The chance of rain is 14 percent. The sun goes down at 4:54 this evening, about 1 minutes earlier than yesterday. Can you feel the days getting shorter? If it rains later, look up afterwards. Sometimes a rainbow comes out to say hello. And here's a look ahead: tomorrow will be drizzly, with a high of 15 degrees. This week is all about taking turns. What is your favourite part? That's all from the weather desk. Enjoy your day!</description>
+      <itunes:summary>Hi there! Welcome to your weather report for Tuesday, November 17. It's Tuesday, and the week is getting going. Today in Shanghai, it will be a little bit rainy. Temperatures will go up to 18 degrees, with a low of 12. It will feel just right out there. The chance of rain is 14 percent. The sun goes down at 4:54 this evening, about 1 minutes earlier than yesterday. Can you feel the days getting shorter? If it rains later, look up afterwards. Sometimes a rainbow comes out to say hello. And here's a look ahead: tomorrow will be drizzly, with a high of 15 degrees. This week is all about taking turns. What is your favourite part? That's all from the weather desk. Enjoy your day!</itunes:summary>
+      <pubDate>Tue, 17 Nov 2026 03:00:31 +0800</pubDate>
       <guid isPermaLink="false">daily-weather</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="360000" type="audio/mpeg"/>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="345024" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
