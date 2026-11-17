@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Tue, 17 Nov 2026 03:00:50 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 01:58:21 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -21,11 +21,11 @@
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
       <title>Daily Weather</title>
-      <description>Hi there! Welcome to your weather report for Tuesday, November 17. It's Tuesday, and the week is getting going. Today in Shanghai, it will be a little bit rainy. Temperatures will go up to 18 degrees, with a low of 12. It will feel just right out there. The chance of rain is 14 percent. The sun goes down at 4:54 this evening, about 1 minutes earlier than yesterday. Can you feel the days getting shorter? If it rains later, look up afterwards. Sometimes a rainbow comes out to say hello. And here's a look ahead: tomorrow will be drizzly, with a high of 15 degrees. This week is all about taking turns. What is your favourite part? That's all from the weather desk. Enjoy your day!</description>
-      <itunes:summary>Hi there! Welcome to your weather report for Tuesday, November 17. It's Tuesday, and the week is getting going. Today in Shanghai, it will be a little bit rainy. Temperatures will go up to 18 degrees, with a low of 12. It will feel just right out there. The chance of rain is 14 percent. The sun goes down at 4:54 this evening, about 1 minutes earlier than yesterday. Can you feel the days getting shorter? If it rains later, look up afterwards. Sometimes a rainbow comes out to say hello. And here's a look ahead: tomorrow will be drizzly, with a high of 15 degrees. This week is all about taking turns. What is your favourite part? That's all from the weather desk. Enjoy your day!</itunes:summary>
-      <pubDate>Tue, 17 Nov 2026 03:00:31 +0800</pubDate>
+      <description>Hello, and welcome! Welcome to your weather report for Wednesday, November 18. Wednesday. We are halfway through the week! Today in Shanghai, it will be damp with light drizzle. The warmest part of the day will be 15 degrees, and the coolest 7. It should feel pleasantly mild. The chance of rain is 75 percent. Did you know today is day 322 of the year? There are 43 days to go until the new one. Remember to take an umbrella with you! As for tomorrow, expect it to be rather grey and cloudy, with a high of 11 degrees. Think about taking turns today. Would you like to know more about it? That's your weather report. See you tomorrow!</description>
+      <itunes:summary>Hello, and welcome! Welcome to your weather report for Wednesday, November 18. Wednesday. We are halfway through the week! Today in Shanghai, it will be damp with light drizzle. The warmest part of the day will be 15 degrees, and the coolest 7. It should feel pleasantly mild. The chance of rain is 75 percent. Did you know today is day 322 of the year? There are 43 days to go until the new one. Remember to take an umbrella with you! As for tomorrow, expect it to be rather grey and cloudy, with a high of 11 degrees. Think about taking turns today. Would you like to know more about it? That's your weather report. See you tomorrow!</itunes:summary>
+      <pubDate>Wed, 18 Nov 2026 01:58:08 +0800</pubDate>
       <guid isPermaLink="false">daily-weather</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="345024" type="audio/mpeg"/>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="331200" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
