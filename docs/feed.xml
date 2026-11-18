@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Wed, 18 Nov 2026 01:58:21 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 01:40:00 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -21,9 +21,9 @@
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
       <title>Daily Weather</title>
-      <description>Hello, and welcome! Welcome to your weather report for Wednesday, November 18. Wednesday. We are halfway through the week! Today in Shanghai, it will be damp with light drizzle. The warmest part of the day will be 15 degrees, and the coolest 7. It should feel pleasantly mild. The chance of rain is 75 percent. Did you know today is day 322 of the year? There are 43 days to go until the new one. Remember to take an umbrella with you! As for tomorrow, expect it to be rather grey and cloudy, with a high of 11 degrees. Think about taking turns today. Would you like to know more about it? That's your weather report. See you tomorrow!</description>
-      <itunes:summary>Hello, and welcome! Welcome to your weather report for Wednesday, November 18. Wednesday. We are halfway through the week! Today in Shanghai, it will be damp with light drizzle. The warmest part of the day will be 15 degrees, and the coolest 7. It should feel pleasantly mild. The chance of rain is 75 percent. Did you know today is day 322 of the year? There are 43 days to go until the new one. Remember to take an umbrella with you! As for tomorrow, expect it to be rather grey and cloudy, with a high of 11 degrees. Think about taking turns today. Would you like to know more about it? That's your weather report. See you tomorrow!</itunes:summary>
-      <pubDate>Wed, 18 Nov 2026 01:58:08 +0800</pubDate>
+      <description>Hello! Lovely to see you. It's Thursday, November 19. Time for the weather! It's Thursday, almost the end of the week. Today in Shanghai, it will be overcast. The warmest part of the day will be 11 degrees, and the coolest 4. A bit parky today, as they say. There is almost no chance of rain today. There are 35 days to go until a special day. Can you guess which one? Wrap up warm today, with a big coat and cosy gloves! As for tomorrow, expect it to be overcast, with a high of 11 degrees. One more day of thinking about taking turns. What stands out? That's your weather. Have a wonderful day!</description>
+      <itunes:summary>Hello! Lovely to see you. It's Thursday, November 19. Time for the weather! It's Thursday, almost the end of the week. Today in Shanghai, it will be overcast. The warmest part of the day will be 11 degrees, and the coolest 4. A bit parky today, as they say. There is almost no chance of rain today. There are 35 days to go until a special day. Can you guess which one? Wrap up warm today, with a big coat and cosy gloves! As for tomorrow, expect it to be overcast, with a high of 11 degrees. One more day of thinking about taking turns. What stands out? That's your weather. Have a wonderful day!</itunes:summary>
+      <pubDate>Thu, 19 Nov 2026 01:39:54 +0800</pubDate>
       <guid isPermaLink="false">daily-weather</guid>
       <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="331200" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
