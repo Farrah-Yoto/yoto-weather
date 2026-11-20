@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Fri, 20 Nov 2026 01:48:37 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 01:24:40 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -21,11 +21,11 @@
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
       <title>Daily Weather</title>
-      <description>Hello! Ready for today? It's Friday, November 20. Time for the weather! Friday at last. One more day and it's the weekend. In Shanghai today, expect it to be wall to wall sunshine. It will reach 10 degrees, and drop down to 4 degrees. It will feel quite nippy, especially first thing. You probably won't need a raincoat today. Here's something to notice: today is about 2 degrees cooler than yesterday. Will you need an extra layer? Wrap up warm today, with a big coat and cosy gloves! As for tomorrow, expect it to be glorious and sunny, with a high of 13 degrees. Remember, our theme this week is taking turns. What have you noticed today? And that's it for today's weather. Have a lovely time!</description>
-      <itunes:summary>Hello! Ready for today? It's Friday, November 20. Time for the weather! Friday at last. One more day and it's the weekend. In Shanghai today, expect it to be wall to wall sunshine. It will reach 10 degrees, and drop down to 4 degrees. It will feel quite nippy, especially first thing. You probably won't need a raincoat today. Here's something to notice: today is about 2 degrees cooler than yesterday. Will you need an extra layer? Wrap up warm today, with a big coat and cosy gloves! As for tomorrow, expect it to be glorious and sunny, with a high of 13 degrees. Remember, our theme this week is taking turns. What have you noticed today? And that's it for today's weather. Have a lovely time!</itunes:summary>
-      <pubDate>Fri, 20 Nov 2026 01:48:28 +0800</pubDate>
+      <description>Hello there! Let's get started. It's the weekend. No school today! Here is your weather report for Saturday, November 21. It's Saturday, a whole day to do what you like. Looking outside in Shanghai, today will be sunny from start to finish. It will reach 14 degrees, and drop down to 3 degrees. A bit parky today, as they say. Rain is very unlikely today. The sun goes down at 4:53 this evening, about 1 minutes earlier than yesterday. Can you feel the days getting shorter? Wrap up warm today, with a big coat and cosy gloves! And here's a look ahead: tomorrow will be under a blanket of cloud, with a high of 15 degrees. Here's a question: what is the kindest thing you can do today? And that's the weather. Have a brilliant day!</description>
+      <itunes:summary>Hello there! Let's get started. It's the weekend. No school today! Here is your weather report for Saturday, November 21. It's Saturday, a whole day to do what you like. Looking outside in Shanghai, today will be sunny from start to finish. It will reach 14 degrees, and drop down to 3 degrees. A bit parky today, as they say. Rain is very unlikely today. The sun goes down at 4:53 this evening, about 1 minutes earlier than yesterday. Can you feel the days getting shorter? Wrap up warm today, with a big coat and cosy gloves! And here's a look ahead: tomorrow will be under a blanket of cloud, with a high of 15 degrees. Here's a question: what is the kindest thing you can do today? And that's the weather. Have a brilliant day!</itunes:summary>
+      <pubDate>Sat, 21 Nov 2026 01:24:20 +0800</pubDate>
       <guid isPermaLink="false">daily-weather</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="369792" type="audio/mpeg"/>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="375552" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
