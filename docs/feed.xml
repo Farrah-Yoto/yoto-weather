@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Sun, 22 Nov 2026 00:29:07 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 00:45:48 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -21,11 +21,11 @@
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
       <title>Daily Weather</title>
-      <description>Hello! Happy weekend! Welcome to your weather report for Sunday, November 22. Sunday. A slow and cosy sort of day. Shanghai is going to be overcast today. The high will be 16 degrees, and the low will be 6 degrees. It will feel just right out there. Rain is very unlikely today. Did you know today is day 326 of the year? There are 39 days to go until the new one. Keep an eye on the sky. The clouds might break and let the sun through. Looking ahead to tomorrow, it will be cloudy, reaching 18 degrees. Something to think about: what would you put in a treasure box? And that's it for today's weather. Have a lovely time!</description>
-      <itunes:summary>Hello! Happy weekend! Welcome to your weather report for Sunday, November 22. Sunday. A slow and cosy sort of day. Shanghai is going to be overcast today. The high will be 16 degrees, and the low will be 6 degrees. It will feel just right out there. Rain is very unlikely today. Did you know today is day 326 of the year? There are 39 days to go until the new one. Keep an eye on the sky. The clouds might break and let the sun through. Looking ahead to tomorrow, it will be cloudy, reaching 18 degrees. Something to think about: what would you put in a treasure box? And that's it for today's weather. Have a lovely time!</itunes:summary>
-      <pubDate>Sun, 22 Nov 2026 00:28:51 +0800</pubDate>
+      <description>Hello there! It's Monday, November 23. Time for the weather! Monday again. Let's start the week well! Today in Shanghai, it will be damp with light drizzle. The high will be 18 degrees, and the low will be 11 degrees. It will feel just right out there. Rain is about 15 percent likely today. There are 31 days to go until a special day. Can you guess which one? Listen out for the rain on the window today. It sounds like tiny drums. And here's a look ahead: tomorrow will be overcast, with a high of 13 degrees. This week our theme is rain on the window. Watch one drop and follow it down. That's all from the weather desk. Enjoy your day!</description>
+      <itunes:summary>Hello there! It's Monday, November 23. Time for the weather! Monday again. Let's start the week well! Today in Shanghai, it will be damp with light drizzle. The high will be 18 degrees, and the low will be 11 degrees. It will feel just right out there. Rain is about 15 percent likely today. There are 31 days to go until a special day. Can you guess which one? Listen out for the rain on the window today. It sounds like tiny drums. And here's a look ahead: tomorrow will be overcast, with a high of 13 degrees. This week our theme is rain on the window. Watch one drop and follow it down. That's all from the weather desk. Enjoy your day!</itunes:summary>
+      <pubDate>Mon, 23 Nov 2026 00:45:40 +0800</pubDate>
       <guid isPermaLink="false">daily-weather</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="340272" type="audio/mpeg"/>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="342288" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
