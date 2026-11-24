@@ -8,7 +8,7 @@
     <atom:link href="https://farrah-yoto.github.io/yoto-weather/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-gb</language>
     <description>A short, friendly English weather report every morning.</description>
-    <lastBuildDate>Tue, 24 Nov 2026 04:41:12 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 03:46:39 +0800</lastBuildDate>
     <itunes:author>Family</itunes:author>
     <itunes:summary>A short, friendly English weather report every morning.</itunes:summary>
     <itunes:type>episodic</itunes:type>
@@ -21,11 +21,11 @@
     <itunes:image href="https://farrah-yoto.github.io/yoto-weather/cover.jpg"/>
     <item>
       <title>Daily Weather</title>
-      <description>Hi there! It's Tuesday, November 24. Time for the weather! Tuesday already. Well done for a good start! Today in Shanghai, it will be damp with light drizzle. The high will be 12 degrees, and the low will be 5 degrees. There's a real chill in the air today. Rain is very unlikely today. Here's something to notice: today is about 5 degrees cooler than yesterday. Will you need an extra layer? Brrr, it's chilly. Don't forget your scarf! As for tomorrow, expect it to be overcast, with a high of 12 degrees. What would you tell a friend about rain on the window? That's all from the weather desk. Enjoy your day!</description>
-      <itunes:summary>Hi there! It's Tuesday, November 24. Time for the weather! Tuesday already. Well done for a good start! Today in Shanghai, it will be damp with light drizzle. The high will be 12 degrees, and the low will be 5 degrees. There's a real chill in the air today. Rain is very unlikely today. Here's something to notice: today is about 5 degrees cooler than yesterday. Will you need an extra layer? Brrr, it's chilly. Don't forget your scarf! As for tomorrow, expect it to be overcast, with a high of 12 degrees. What would you tell a friend about rain on the window? That's all from the weather desk. Enjoy your day!</itunes:summary>
-      <pubDate>Tue, 24 Nov 2026 04:41:01 +0800</pubDate>
+      <description>Hello, and welcome! Welcome to your weather report for Wednesday, November 25. It's Wednesday, right in the middle of the week. In Shanghai today, expect it to be dull and cloudy. It will reach 12 degrees, and drop down to 2 degrees. A bit parky today, as they say. Rain is very unlikely today. The sun goes down at 4:52 this evening, about 1 minutes earlier than yesterday. Can you feel the days getting shorter? It's very cold. Please wear your warm coat, hat and gloves! Looking ahead to tomorrow, it will be under a blanket of cloud, reaching 18 degrees. Still thinking about rain on the window this week. Has anything surprised you? That's all from the weather desk. Enjoy your day!</description>
+      <itunes:summary>Hello, and welcome! Welcome to your weather report for Wednesday, November 25. It's Wednesday, right in the middle of the week. In Shanghai today, expect it to be dull and cloudy. It will reach 12 degrees, and drop down to 2 degrees. A bit parky today, as they say. Rain is very unlikely today. The sun goes down at 4:52 this evening, about 1 minutes earlier than yesterday. Can you feel the days getting shorter? It's very cold. Please wear your warm coat, hat and gloves! Looking ahead to tomorrow, it will be under a blanket of cloud, reaching 18 degrees. Still thinking about rain on the window this week. Has anything surprised you? That's all from the weather desk. Enjoy your day!</itunes:summary>
+      <pubDate>Wed, 25 Nov 2026 03:46:29 +0800</pubDate>
       <guid isPermaLink="false">daily-weather</guid>
-      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="330048" type="audio/mpeg"/>
+      <enclosure url="https://farrah-yoto.github.io/yoto-weather/audio/latest.mp3" length="353232" type="audio/mpeg"/>
       <itunes:duration>00:01:20</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
